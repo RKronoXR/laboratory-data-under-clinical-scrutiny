@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the accompanying study and the original datasets when using these workflows."
 type: software
-title: "Proximal caries laboratory transfer"
+title: "Laboratory Data Under Clinical Scrutiny"
 version: 0.1.0
 license: AGPL-3.0-only
 authors:

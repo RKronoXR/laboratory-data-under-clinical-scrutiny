@@ -1,4 +1,4 @@
-# Proximal caries laboratory transfer
+# Laboratory Data Under Clinical Scrutiny
 
 Reproduction code for **Laboratory Data Under Clinical Scrutiny: Evaluating AI-Based Proximal Early Caries Lesion Detection**.
 

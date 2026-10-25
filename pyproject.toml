@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "proximal-caries-laboratory-transfer"
+name = "laboratory-data-under-clinical-scrutiny"
 version = "0.1.0"
-description = "Reproduce laboratory transfer experiments for proximal caries lesion detection"
+description = "Reproduce the clinical evaluation of laboratory data for proximal early caries lesion detection"
 requires-python = ">=3.10"
 readme = "README.md"
 license = {file = "LICENSE"}
