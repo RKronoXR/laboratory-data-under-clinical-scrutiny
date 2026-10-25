@@ -1,0 +1,215 @@
+{
+  "augmentation": "native_nnUNet_2.8.1",
+  "compile": true,
+  "configuration": "2d",
+  "dataset_sha256": "b27ca20165147870f1f076a4a8530468e23fe04202ae89e67e4be9e29725d8d3",
+  "deep_supervision": true,
+  "epochs": 250,
+  "foreground_sampling": 0.33,
+  "framework": "nnunetv2",
+  "framework_version": "2.8.1",
+  "gradient_clip": 12.0,
+  "image_reader_writer": "NaturalImage2DIO",
+  "inference": {
+    "compile": false,
+    "mirroring_axes": [
+      0,
+      1
+    ],
+    "tile_step_size": 0.5,
+    "use_gaussian": true,
+    "use_mirroring": true
+  },
+  "initial_lr": 0.01,
+  "input_size": 384,
+  "labels": {
+    "background": 0,
+    "caries": 1
+  },
+  "min_delta": 0.001,
+  "momentum": 0.99,
+  "native_runtime_sources": {
+    "loader": "03e07ba75daa520f14943364a04e6e359f60dc317310f64a9904010f499f6445",
+    "trainer": "7096efb2040135eb60df3c8bf39cdbcc373e299671fcee365b3aff2f4da4dfbd"
+  },
+  "nesterov": true,
+  "normalization_schemes": [
+    "ZScoreNormalization"
+  ],
+  "optimizer": "SGD",
+  "patience": 30,
+  "plan_configuration": {
+    "architecture": {
+      "_kw_requires_import": [
+        "conv_op",
+        "norm_op",
+        "dropout_op",
+        "nonlin"
+      ],
+      "arch_kwargs": {
+        "conv_bias": true,
+        "conv_op": "torch.nn.modules.conv.Conv2d",
+        "dropout_op": null,
+        "dropout_op_kwargs": null,
+        "features_per_stage": [
+          32,
+          64,
+          128,
+          256,
+          512,
+          512,
+          512
+        ],
+        "kernel_sizes": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "n_conv_per_stage": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "n_conv_per_stage_decoder": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "n_stages": 7,
+        "nonlin": "torch.nn.LeakyReLU",
+        "nonlin_kwargs": {
+          "inplace": true
+        },
+        "norm_op": "torch.nn.modules.instancenorm.InstanceNorm2d",
+        "norm_op_kwargs": {
+          "affine": true,
+          "eps": 1e-05
+        },
+        "strides": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "network_class_name": "dynamic_network_architectures.architectures.unet.PlainConvUNet"
+    },
+    "batch_dice": true,
+    "batch_size": 44,
+    "data_identifier": "nnUNetPlans_2d",
+    "median_image_size_in_voxels": [
+      384.0,
+      191.0
+    ],
+    "normalization_schemes": [
+      "ZScoreNormalization"
+    ],
+    "patch_size": [
+      384,
+      192
+    ],
+    "preprocessor_name": "DefaultPreprocessor",
+    "resampling_fn_data": "resample_data_or_seg_to_shape",
+    "resampling_fn_data_kwargs": {
+      "force_separate_z": null,
+      "is_seg": false,
+      "order": 3,
+      "order_z": 0
+    },
+    "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+    "resampling_fn_probabilities_kwargs": {
+      "force_separate_z": null,
+      "is_seg": false,
+      "order": 1,
+      "order_z": 0
+    },
+    "resampling_fn_seg": "resample_data_or_seg_to_shape",
+    "resampling_fn_seg_kwargs": {
+      "force_separate_z": null,
+      "is_seg": true,
+      "order": 1,
+      "order_z": 0
+    },
+    "spacing": [
+      1.0,
+      1.0
+    ],
+    "use_mask_for_norm": [
+      true
+    ]
+  },
+  "plans_sha256": "d82472516bdbc4fd92c4875905106e19af04ecc0a09421d88686e45085da4157",
+  "recipe_signature": "f130f30156724aa5e171559d4a90dfd736a1e5142fada30efb2fb58263f0e4c9",
+  "scheduler": {
+    "exponent": 0.9,
+    "name": "PolyLRScheduler"
+  },
+  "schema": 1,
+  "selection": "EMA_foreground_Dice",
+  "train_iterations": 250,
+  "trainer_kind": "legacy_dcbr",
+  "trainer_name": "nnUNetTrainerDCBRFullBW",
+  "trainer_sha256": "8831365afddc8c067ff9d762cd4fc182e8c255576ecee64791b6546c574658a6",
+  "use_mask_for_norm": [
+    true
+  ],
+  "validation_iterations": 50,
+  "weight_decay": 3e-05,
+  "workers": 12
+}

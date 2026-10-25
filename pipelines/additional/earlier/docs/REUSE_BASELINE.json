@@ -1,0 +1,23 @@
+{
+  "reversekd/__init__.py": "a6ee0f20d92006c89925180ec31d737b83453e639d0a9d29ceb7b6d2db626170",
+  "reversekd/_legacy_metrics.py": "f7d02fee8dddc04b906071b90de2a837f35bf9bd9783f959998dfbef7b7fbe0e",
+  "reversekd/_source.py": "acad9ebc5773d449c362720742f97db8417961c4aa7c9c349218e75ace94bcb2",
+  "reversekd/check.py": "c18ef493e1dd3ec7c65a150319b6ecbb1e545c08be04297fe8afae90f8ce876c",
+  "reversekd/config.py": "894fe852a15c21a8a0d14d3b96450404f1a1f0bb50d3380fcb01f083815213c7",
+  "reversekd/data.py": "2aedecbef4e69255445b3eca4a54072ec37256e9a096182f455bd2304fd684f4",
+  "reversekd/hpo.py": "7546fb7d867c16ce451aafa3a540dd9b6acc1ef5caaab6a04c459a06da0d3bf7",
+  "reversekd/io.py": "638629c8dde493b57c319c3692c5b0605a7f5c4b82dab5463b7d17056ce8216c",
+  "reversekd/metrics.py": "05b3b793f84bbfdc783709cf06b29a8308c90919f2a7d26da02751626511b07b",
+  "reversekd/monitor.py": "3e8a8e4dd00f3677d89a9521a416d5e708096ff3e4d4e41e1b377c7935932785",
+  "reversekd/pipeline.py": "c15f8a04bcaef949954220abb86e2ee7c5bac1e907c1586f0834083bc7882e7a",
+  "reversekd/preflight.py": "0f45f0dcb3405d2a841cc0c42f94895df156c7c025f7360d7357bfc8e95be99b",
+  "reversekd/processes.py": "e9c26d7a517147d0e59de839c1145d01e13e66aca79a8947ac91c9ab2cd71844",
+  "reversekd/professor.py": "3d65db10a94461d9fb19da08fb4fd553eeaf04b3d21b2746572b01f16db7eaf9",
+  "reversekd/report.py": "03d34f7f1b27b6dc6722ff4b7f1d98657711d40db90b13c25d33bf8ee68f26d7",
+  "reversekd/reuse.py": "5b4fbfbbea32aa25b68720efaaef3290a585714a21c1a4947b1a2bd610e7f917",
+  "reversekd/statistics.py": "ffb6efc70a117b618302f326451359c50f0e8fb63f91290d1b36abe4d44674d5",
+  "reversekd/student.py": "cfce2ad166e08ddd262cd256a513f478501070edca47b73d07cb2120340c204d",
+  "reversekd/worker.py": "73d42551cfba8ec02f1f91439c77259c2eda3436600e2f6eadf401d9c4c2c316",
+  "run.py": "31a04fdceb7dc151b7b5234a6eab5df7bfeb1823e501aeacdb0250fe902b8cf0",
+  "analysis/glmm.R": "f208c323a958b43cfadbe1db147e7268adb31c453a93b5d6dd8937cca4b0ff34"
+}

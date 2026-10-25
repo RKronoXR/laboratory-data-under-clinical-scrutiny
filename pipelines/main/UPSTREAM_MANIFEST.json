@@ -1,0 +1,332 @@
+{
+  "source_archive": "MANUSCRIPT_METHODS_V2_20261024_050532_66df71d3.zip",
+  "files": [
+    {
+      "path": "pipelines/main/yolo/PREDICT.py",
+      "source_member": "project/acta_kd_study_v3/PREDICT.py",
+      "sha256": "be9145ee373a86759891224480dc3ca78741afa627b5e4436740664dbb2b46ec",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/run.py",
+      "source_member": "project/acta_kd_study_v3/run.py",
+      "sha256": "384b45faeaacab8aae4e054921f676b871150cf6c0e12ba4cba865b90dcbf677",
+      "modified": true,
+      "bundled_sha256": "51229a42509cf3b4fcb8033118bace74f966d87b1a2c14e1bdbd4d1864b73db2",
+      "portable_patch": "Worker-only dispatch replaces the historical interactive/default experiment menus. The same package worker.execute(task_path) receives the unchanged task arguments; no training, inference or metric code is modified."
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/__init__.py",
+      "source_member": "project/acta_kd_study_v3/actakd/__init__.py",
+      "sha256": "728b5f25892cef8d30dcf42f606e10346328734daa697a3a9abb0213a92b463c",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/_legacy_metrics.py",
+      "source_member": "project/acta_kd_study_v3/actakd/_legacy_metrics.py",
+      "sha256": "f7d02fee8dddc04b906071b90de2a837f35bf9bd9783f959998dfbef7b7fbe0e",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/_source.py",
+      "source_member": "project/acta_kd_study_v3/actakd/_source.py",
+      "sha256": "acad9ebc5773d449c362720742f97db8417961c4aa7c9c349218e75ace94bcb2",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/check.py",
+      "source_member": "project/acta_kd_study_v3/actakd/check.py",
+      "sha256": "33efdf0134a149457eb1c27b827731b0e28f287c9d157b901115494708cad9f8",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/compare_runs.py",
+      "source_member": "project/acta_kd_study_v3/actakd/compare_runs.py",
+      "sha256": "623430580c144c0ccd2763652a0c52ece657983841d839c5f61a1fa3c94f85bc",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/config.py",
+      "source_member": "project/acta_kd_study_v3/actakd/config.py",
+      "sha256": "a35d0f770e121f027d5523fa4a6e3045d7a778b468e4e6b8a00815b499d4ac1c",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/data.py",
+      "source_member": "project/acta_kd_study_v3/actakd/data.py",
+      "sha256": "b3674bdf404b5e2dcc426583040c824bda5581c390955c268db27f5613d49dfc",
+      "modified": true,
+      "bundled_sha256": "42bea28786f7b80d2d84e9a9406eef343d66944e2651fe5a313dfa4fcd626895",
+      "portable_patch": "Explicit updated-annotation mode keeps native masks authoritative for lesion presence, preserves the supplied context-exclusion flags, logs disagreements with the earlier surface-review presence labels, and records positive native lesions lost on the fixed training grid. It changes no raw pixels, regions, dimensions or splits. Recorded mode retains the original admission checks."
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/export.py",
+      "source_member": "project/acta_kd_study_v3/actakd/export.py",
+      "sha256": "61a50ab44e71a3254489e67f9e3265906b8343dfec83dc78a36db9aa401d504e",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/io.py",
+      "source_member": "project/acta_kd_study_v3/actakd/io.py",
+      "sha256": "638629c8dde493b57c319c3692c5b0605a7f5c4b82dab5463b7d17056ce8216c",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/metrics.py",
+      "source_member": "project/acta_kd_study_v3/actakd/metrics.py",
+      "sha256": "5af24b9a8283f809cdfb52f3e2b5e6036b7614439fd9c91f8bb3d60f968b9ac5",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/monitor.py",
+      "source_member": "project/acta_kd_study_v3/actakd/monitor.py",
+      "sha256": "7d4db77144ccef71677e4e531863a4d8079ee745cdb9de94f81b4ceb923a0377",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/native_trainer.py",
+      "source_member": "project/acta_kd_study_v3/actakd/native_trainer.py",
+      "sha256": "d948aed2fb7adb312d6fa43a036f897c57f987026bb16c14203f739913d0726e",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/pipeline.py",
+      "source_member": "project/acta_kd_study_v3/actakd/pipeline.py",
+      "sha256": "8d950e33eb6e298d971d70d31f17fbec451f2824b1d048965fbaefc1d29d51ac",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/preflight.py",
+      "source_member": "project/acta_kd_study_v3/actakd/preflight.py",
+      "sha256": "5d6b58e118d1dc46718c0bbfc1dd515c67ae2b97ab5e752856328c4f5a5f2414",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/progress.py",
+      "source_member": "project/acta_kd_study_v3/actakd/progress.py",
+      "sha256": "53d51fdf564a9a479cb9607e4ecf61e10bd6e23c0b2ce1bd58bce681f9576bd8",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/report.py",
+      "source_member": "project/acta_kd_study_v3/actakd/report.py",
+      "sha256": "f6a40c5cd4b13cb34dd2e0d83fa4cfc3ec36e0c48a7cd077bd14be473481a0a1",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/reuse.py",
+      "source_member": "project/acta_kd_study_v3/actakd/reuse.py",
+      "sha256": "fb0bd7783b58e634340eed89afa6776da242aebd8d3b5ec6a1a701d4775329fa",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/search.py",
+      "source_member": "project/acta_kd_study_v3/actakd/search.py",
+      "sha256": "0e8a788bbdf7ae0952144d16e3d0fd4af4a7d4a6726a514acb6902be8a6348f4",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/statistics.py",
+      "source_member": "project/acta_kd_study_v3/actakd/statistics.py",
+      "sha256": "c83189c5a2b801bf410895420a30f7f4b4f5e03b365d674272a29af93922f5e1",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/student.py",
+      "source_member": "project/acta_kd_study_v3/actakd/student.py",
+      "sha256": "c6ccca3e29b173a314ecf341284887764aec4611cad0b0265e51264291c535e2",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/teacher.py",
+      "source_member": "project/acta_kd_study_v3/actakd/teacher.py",
+      "sha256": "d49a18f40dee0ee21c610d8cad51a3d031949258cb1f7347ff0dcbaa36403b4e",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/actakd/worker.py",
+      "source_member": "project/acta_kd_study_v3/actakd/worker.py",
+      "sha256": "0234f55c88b351a4a6f0b89783bc7d4d5a2013e91566e7be94f22115d48966d6",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/yolo/analysis/glmm.R",
+      "source_member": "project/acta_kd_study_v3/analysis/glmm.R",
+      "sha256": "3fd96b1ee9a1431d0f89aeaa21309434dd4b806e105546abc3d150e5a489b5de",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/run.py",
+      "source_member": "project/acta_reverse_kd_v3/run.py",
+      "sha256": "fbdcbe8dde78b925f7c0ba3a038ed2df6a9e6939099d3be73346065e401d4b4c",
+      "modified": true,
+      "bundled_sha256": "e35d5c810662ed4c0ddfc47f442d144c45a838d681dcb8ca245ec09f6da81bb7",
+      "portable_patch": "Worker-only dispatch replaces the historical interactive/default experiment menus. The same package worker.execute(task_path) receives the unchanged task arguments; no training, inference or metric code is modified."
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/__init__.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/__init__.py",
+      "sha256": "a6ee0f20d92006c89925180ec31d737b83453e639d0a9d29ceb7b6d2db626170",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/_legacy_metrics.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/_legacy_metrics.py",
+      "sha256": "f7d02fee8dddc04b906071b90de2a837f35bf9bd9783f959998dfbef7b7fbe0e",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/_source.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/_source.py",
+      "sha256": "acad9ebc5773d449c362720742f97db8417961c4aa7c9c349218e75ace94bcb2",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/cache.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/cache.py",
+      "sha256": "6b930fb94f07bc728cef83ddbc92aba7db4f66ce346657833ffbbfba0c214b61",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/check.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/check.py",
+      "sha256": "5f6f87c38fa22d1652b579718717e2d8d6327a1504371677cb2481c55f2585cf",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/config.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/config.py",
+      "sha256": "a454b60499776cd9ae47b0bbe179a620d51ed0170c6143821daa1c02b48ec3ec",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/data.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/data.py",
+      "sha256": "89cfa21a7209f31524eef49d3717cbd6945b2a1df6e812a1d89f0dc827c9ea3e",
+      "modified": true,
+      "bundled_sha256": "172b2f634928089156eed3f29aef61b24fd92b15f9f711e7b80276a7fcba5e2c",
+      "portable_patch": "Explicit updated-annotation mode keeps native masks authoritative for lesion presence, preserves the supplied context-exclusion flags, logs disagreements with the earlier surface-review presence labels, and records positive native lesions lost on the fixed training grid. It changes no raw pixels, regions, dimensions or splits. Recorded mode retains the original admission checks."
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/hpo.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/hpo.py",
+      "sha256": "ca075b19765c34caaaeecdc0e41adcc8b9f4f3916425f22877b3caa28eab2b81",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/io.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/io.py",
+      "sha256": "638629c8dde493b57c319c3692c5b0605a7f5c4b82dab5463b7d17056ce8216c",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/metrics.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/metrics.py",
+      "sha256": "05b3b793f84bbfdc783709cf06b29a8308c90919f2a7d26da02751626511b07b",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/monitor.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/monitor.py",
+      "sha256": "63b8b6c8b0895adcd6002fbb1e0979b1f1ee1c07c450cfbea2c32066d6d90586",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/native_data.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/native_data.py",
+      "sha256": "8e69127bbdc8a12171b6f9f5831cb3d668963743b5ceab9c0ff8ba91b71a447a",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/native_kd_trainer.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/native_kd_trainer.py",
+      "sha256": "e0c726ca5babe10cd30cc02f691f580c30b30b40b970f762609a469aad81e9f2",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/native_student.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/native_student.py",
+      "sha256": "0b7a06d4a14c6afb09f89aa974803d516b880ec4857d585e653c8e816ddf48c4",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/pipeline.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/pipeline.py",
+      "sha256": "e0485b93cfa9078bbc4ab9499a43d6f8d6bdf4d2465274ede8002c43a3eb789e",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/preflight.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/preflight.py",
+      "sha256": "4221c2857f19905c6b6251d96182628135cccbad42fa4ebe0850876baf34066c",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/processes.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/processes.py",
+      "sha256": "e9c26d7a517147d0e59de839c1145d01e13e66aca79a8947ac91c9ab2cd71844",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/professor.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/professor.py",
+      "sha256": "6ba1c203a7c90f13b10b870e1ebff2238cf667ee32315e6d9ff43e4456b95284",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/report.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/report.py",
+      "sha256": "b74e248c49afc21e77290b94b78a23a321113b8823b4c609b732e9e5f46a367d",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/reuse.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/reuse.py",
+      "sha256": "5b4fbfbbea32aa25b68720efaaef3290a585714a21c1a4947b1a2bd610e7f917",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/source_baselines.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/source_baselines.py",
+      "sha256": "235d53f1765b1851bdbc2d3c30abdae4612449f182ea2e33b7345a850d507b71",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/statistics.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/statistics.py",
+      "sha256": "a40f8983dd96f92988fc869cf3ab6817bb93beb39122c54e13e96855b46faf8d",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/student.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/student.py",
+      "sha256": "a3a96a3147f416f08099e9f846959c6be6eb36f096b23296422913159b4fe752",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/reversekd/worker.py",
+      "source_member": "project/acta_reverse_kd_v3/reversekd/worker.py",
+      "sha256": "5e082420e00a180645a9c710542157bea2b387d3a4785ced6f04fc016f9d8614",
+      "modified": false
+    },
+    {
+      "path": "pipelines/main/nnunet/analysis/glmm.R",
+      "source_member": "project/acta_reverse_kd_v3/analysis/glmm.R",
+      "sha256": "27af8b25d67108fec42320886e1a2bd46245431587ebdaf2d5a9242b59f43fcc",
+      "modified": false
+    },
+    {
+      "path": "configs/main/clinical_plans.json",
+      "source_member": "project/acta_reverse_kd_v3/output/CONTROLLED_V3_NO_HPO/audit/student_plans.json",
+      "sha256": "65644d83b51684dc5df7a7017ecc083438dc949cf3ab3bbfbd0db44064078cdc",
+      "modified": false
+    },
+    {
+      "path": "configs/main/clinical_splits.json",
+      "source_member": "project/acta_kd_study_v3/output/NO_HPO/data/original_splits_final.json",
+      "sha256": "fb45cfd14129a730a22ea4e6a77cc7f1d233f3496ca6a1ef2537d6dcf0cd287e",
+      "modified": false
+    }
+  ],
+  "runtime_note": "The audited clinical baseline used 12 augmentation workers and compilation during training; fresh teacher configuration preserves those values. Inference remains uncompiled."
+}

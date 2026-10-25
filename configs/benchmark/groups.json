@@ -1,0 +1,74 @@
+[
+  {
+    "name": "laboratory-segresnet",
+    "source_group_id": "monai_segresnet_acta_direct_crops",
+    "architecture": "monai_segresnet",
+    "dataset": "acta_direct",
+    "input": "crops",
+    "development_probability_transpose": true
+  },
+  {
+    "name": "clinical-crops-segresnet",
+    "source_group_id": "monai_segresnet_dcbr_crops",
+    "architecture": "monai_segresnet",
+    "dataset": "dcbr",
+    "input": "crops",
+    "development_probability_transpose": false
+  },
+  {
+    "name": "clinical-bitewings-segresnet",
+    "source_group_id": "monai_segresnet_dcbr_full",
+    "architecture": "monai_segresnet",
+    "dataset": "dcbr",
+    "input": "full",
+    "development_probability_transpose": false
+  },
+  {
+    "name": "laboratory-nnunet",
+    "source_group_id": "nnunetv2_acta_direct_crops",
+    "architecture": "nnunetv2",
+    "dataset": "acta_direct",
+    "input": "crops",
+    "development_probability_transpose": false
+  },
+  {
+    "name": "clinical-crops-nnunet",
+    "source_group_id": "nnunetv2_dcbr_crops",
+    "architecture": "nnunetv2",
+    "dataset": "dcbr",
+    "input": "crops",
+    "development_probability_transpose": false
+  },
+  {
+    "name": "clinical-bitewings-nnunet",
+    "source_group_id": "nnunetv2_dcbr_full",
+    "architecture": "nnunetv2",
+    "dataset": "dcbr",
+    "input": "full",
+    "development_probability_transpose": false
+  },
+  {
+    "name": "laboratory-yolo",
+    "source_group_id": "yolo26_sem_acta_direct_crops",
+    "architecture": "yolo26_sem",
+    "dataset": "acta_direct",
+    "input": "crops",
+    "development_probability_transpose": false
+  },
+  {
+    "name": "clinical-crops-yolo",
+    "source_group_id": "yolo26_sem_dcbr_crops",
+    "architecture": "yolo26_sem",
+    "dataset": "dcbr",
+    "input": "crops",
+    "development_probability_transpose": false
+  },
+  {
+    "name": "clinical-bitewings-yolo",
+    "source_group_id": "yolo26_sem_dcbr_full",
+    "architecture": "yolo26_sem",
+    "dataset": "dcbr",
+    "input": "full",
+    "development_probability_transpose": false
+  }
+]

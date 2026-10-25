@@ -1,0 +1,879 @@
+{
+  "description": "Main clinical-assessment regional predictions for the eight manuscript strategies; two saved operating points, no images or patient metadata.",
+  "source_archive_sha256": "4ea04f7395610f37a0a80f40f6c9614c36259d759feed846421c8544cd2b3dd6",
+  "regional_csv_files": 120,
+  "rows": 88560,
+  "threshold_modes": [
+    "fixed",
+    "youden"
+  ],
+  "models_per_strategy": 15,
+  "regions_per_model_and_threshold": 369,
+  "positive_regions": 184,
+  "negative_regions": 185,
+  "bitewings": 25,
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "id_transformation": "Anonymous region and bitewing keys preserve the original sorted grouping order and all within-image/within-region pairing. Keys identify evaluation units, not patients.",
+  "columns_removed": [
+    "machine paths",
+    "original filenames/keys",
+    "patient metadata",
+    "internal experiment codes",
+    "administrative evaluation metadata"
+  ],
+  "source_members_sha256": [
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "c2868f81bb6980e9e57b40b2b07d37a84b82ab64a8cceaca111e56b404f14c05"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "46e3397d1d62cc4650e820213516d50d2e4430e768d06765882df32080f979e1"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "1081f1f2d03d5060a75b7c70a338dcf680554b20dbe46dac106b9f91f91d70d4"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "c78163fc0508444479c8e39881c20984e246fbe7170324f86bdb1fed1579ad90"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "09e816fb2ccdc31234cc5b662804809784d24743d08bb902a2c4a698abe8a3a9"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "698d737fab3ef1c734227f806a4f5f87c35d09778bd93cdaea95bdd3d8ed28e1"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "8953aa6446e211005b60020a1bbacb29a2dcebde1c7d239bbe38d5f00ba58eac"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "e2ba0387792757a5d3ebe5acb1b6ba2232d14cc7c84e00447968be35354f685f"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "df87b41a2e7bb544dbc964ce00f3e9383ace119783223e1b6e14c761800001ae"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "60a4846b31cd4949828d3b07b5eee31d2bf7890187bf52fdef25789a3413be22"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "90e6aa0568ab42f5c1b813e5071170e0c2e06b358a37d38c68dadcbb095ed55d"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "245932db442a6d97436a12437006bd2b4d2037144db047ea2c9c26fa621853e0"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "d0e843e718a72d874f90e9a121e40dc18395296ee39035fbd1910619c8081013"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "b5064fc94396e1824c91f9f6e7ab1b9f8846cc600b07102c4f2a7ae85d1158b2"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "a41d2b07f2b7ed8ffa1e0f51ac7cc14c4c13863e8cbbb3decbdd3169bfb91da9"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "5f8894b18255df28d0796ff0e36953c732ed97b10440b523d7e01b1951912b25"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "8db93ca817b54f2171af6d7a132ff6913c3a0e08a7b545cbb6b9da79e9ab4086"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "03c223d23a24a47fa153d71478c9877d3a5f6140bd20dd03906943958acba7c2"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "330cf784922d0d981a02f10e535d2e854bcf06a97c90e38328b9eb52c7718776"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "6015a80fb9de71b2fdb300d546c99125d521632e820f3a9844f1c5381e5e1499"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "32005354329a6faf4d8fd64bec9a30bfdc5a7ef7ee2ad1e3ce6602cafe57f84f"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "d5743b9251232e9ff0b63b66fb336f73cea4c4f4af76d9abe0ddbf535ac0c0fa"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "ed8b059b98ede29040a5b089de2c97f13b3cfb13f6c622f0d8e79b4dd59acc80"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "9a6473e24d6327d913f2594f316449f378ea486b52199439bb5c10297635c6a5"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "f8b374ef14b30fa29ca67d148c2f80041788eeb065ba3f5806e30a5bdf7185b0"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "fa867128dbf1e001fb82aa35dc85dde2650fc810443bdd815f5218670c4e3464"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "14e71968b1683d10638cc86f9284099aba1e007b1a13e37899836f8fd7b1760f"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "4c6e891b7b5e00ec72e9d965cc6c785edcc62a4b9906dd934b2cc1fd054f3e58"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "adefd953668a42655e246c6e12c258e82759a425ebbc78a719e3978554f813d9"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "80e5405911a0ebac7f44000d7debccf5b5d1f28c371daf8f6f73b22969801c8b"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "f85ba1b56a2f9a7386db5bf72cda54af31e0adc2bff0b3fe5e94bee072759785"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "aa19b88afd6c81186e915c016d5ed6802acd8aa8455eac997696f4690eb70b80"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "6564cfd1f5ad05e20472b6bbe1c9266a4354e5bdd5c608344a67313624ad0d26"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "11cb21e55e8d6f521912559b6a4508b27e9a0d9bc62f12487b325df8b08f5582"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "d5059b0d7dffb0155ec86e6d9bf12e71e3f154bb932949001c3a490f55a409b1"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "163af926af5e99e3665e3083091eee7c253f211b01e53b077624321161f71217"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "bf4b56dbb0ab0a3493177847b95c06fc2a7214e257e7c14f6b56adac02957c51"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "dfb77682cb4f25e6c9f1a748f48b86ff9c02f532e6839a4d2507acd834bf2827"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "c371e49148eb325c7ed5064bbe1dd9592295ace0151bae5382dbe60098582717"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "4103eccc9b49374bedabc549c31b3825af16a1b3805812a2ae868d0d67e5688c"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "674ad98d2e3497837f17585149825f715924ecbe73adeef9bd0698aa0fa8f333"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "87c73c002ef836fc3059f39f42f1e950ab5c3679ab296e52354b5cf2b51943c1"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "f83ddaba07f8c1190bcd0134edc59698fd918491b70dc806a415a21a9b4fa0b2"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "f6f01502680b816c72ee8e7f25db2177fb261c5f665e71d9689a7fe209904229"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "7a41c6e95b9b68b4bf8eb80664727ba59020aad5d62cfa472bd8654f0520ca50"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "051f1fd7ab53615f2ad1e7181abb3aa2b92a740b8b0de03129211c3b1d190780"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "676d3c7020b751a3121390aceb7249adfc94a2002a351f9069538f5229a9211d"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "9856b10b6798c5343732ed0f56d714a0cd4f0b48cca24c7cff7bd490d91f19c1"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "24b9a921c218ab829598cad9300c0f90712b0f0dce7f8bc1dde3036fb03aa238"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "744db8d35d4ef4bdb8dff3bce92387270480eb5d298d6367ea72b1256012946e"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "c4e8ea4ce0c92cdc2de27c91a436ba65202500db8f7bc6fb80b24b6f91f17c12"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "5223e28e30f8ebcfa3b7d3e9beccf47309937c0ad04b4554b8b7dd133daede46"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "38f3139594a7a268aec369c920857cc00880a1eec2d83a57b1ef0909630fd5fd"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "051fb368996f0021b55e344a843b4918060c3e9a8ec5ac01b4c63cf8476f6187"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "e0a2a0ad80dac0354a9b3a4cbbbab8d7ff7975cc4ef9223bb9279ecaceb67dbf"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "145e07fa5a4051ead10ec6ee72c0dca0d4356238a0305f098ac7008545a99c18"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "f6f927f91f0f763d7c896b8602bf1cbf6d22790648278ad2263a9c34f2300c64"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "d9912d32370e1e83ef5ae15c54fe473634c7031a05fe016cf29e0c4e3fb850cd"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "94653a825a0d52706b203953ead6e9c4f3ce61e08219d3abbf4b67f86828b288"
+    },
+    {
+      "architecture": "nnU-Net",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "163faf193ad3255b64f8b60a5a99792341ddba326c2ffcc73d1b5f890aa7e929"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "c593d378134545f90a3a16a59fcf31de525535bbc9ef4fb72016c634cd360735"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "8db698303e851ff45cf40aa8a289a90c3814bf77ccf378678187ae11a33fc628"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "f9bc46bef69198376f56a87d0e012d59aa271564e7ade0b3f327d8888e18afcc"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "eb454280adccb593c5cbb6aa1d6c55bf847c889214bbabb5e09020ebea9f9805"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "5cdacb3c88a16f125ad2262d514703772d1ddc74ffde8218ba6a5e1c00b40e35"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "0a2fb411606ff570b8cb650c0355fa7b830c7ff550d5aa37b4ccae72831396a5"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "e4780b4b4961bd20fc971967a94d18b25a290e3c5fd6bed0350ed52991907ef2"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "1d2f85bc4e8323344353bacc396fdf84d8c8a1146318f76c3fad84d1eaed3935"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "0c760f0016bc33829c675e0239c80b80a22fa24968e13d62585d1d7919346b7c"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "6920847dd5f21a7f025bcc9a8500b88795d232f74030c4a29763d66241e11aae"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "d199c28f87e0f9055ba6b723dbf01bfda85e46479d8c044d49af703bc4222c1b"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "b6cc558930cb899260fbc503fc2e2208942a1008264d2863a52f215724557847"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "865e6967a394ccc7e5d4f639f01762a0ceb960a63d28ea20c0ee3307c0f50d74"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "5e3e4b73f691b3eefdc49861a81abe0fbb1c2cb0f95d8b237e66a25080c8e845"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "clinical_only",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "3af8b7a7d6ec93bbaada04a632b2e739fa53c0bf21012fc21027d103341ac71c"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "79d269c3a6e8502c3de7d8ea5e768a77e3d92936371a80b26986afad5f9e3892"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "bf4ac53a61f10780971efc5d322106649ead30f98af2987cf711c1b2296826d0"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "f4d4537304be454ca4881110021c59fd78a4e801c4836fab6efc70829c43e0a5"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "1961ea74c32ea101dd1137c052296e8d58c839af2533b94c8bb6e265c381d633"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "e5278ffcd8f91731ad80fc3d3f5073cab13537a772947d67a17af1b8455a1371"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "b7a0acc7d4b16e97f69f27421a1b4118929ba929e3cb6f43b0484ebbb1c7bf9a"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "278623107bb5a0acb5bad4c349d47b8060c826cfa00eab0596875bf653019f2c"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "23776ef79dbe23bef00c78549cb09a7b7fa79f88c1c87ee2ffe3831190a6497e"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "e32e973ed04e0e16327da0720936a9b4f2cf043228113dca408814359c4c0fea"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "7a3ee099ba757d8a1f7cd2c8d736d4852db8181e7711fd31db0a6d9583488630"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "2315cfb01fe703c3407928e1d0409d6dd31f361534a845f0eee64768855cdbb7"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "377c02147246a74678a1313ec9ad6b67fa81fc40d8a2dab0b363096070346edc"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "53be2c7f1fe4dde3b4915e618e754b5b9ab9e5f87c68c2cee6776b949a04dcb9"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "8c71649303d5b93cb0c1038375b1db0d9feb7637eaadfbab6c4ac84dadcd7091"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "laboratory_pretraining",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "b13936b39daa891f4ae07b5c782d7b4f4777d07ab59adf350b67d731d5ff927f"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "4181f91e7558c36bc3484bd7249f6ccac53fd496a26930547a70d2611dc0cd01"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "d0dcb4f271a30de4d5829f4ae89deb4120c141a1a74a5ccec50df5910622f64b"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "ea6c275c23dd0deee4a36d7d04e4fcc2c4802ba3ffd3dbc4718c2e083896ee40"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "e00fbca664c85f18136e23df8920e90c8a59e878cb381cc4ca6994f520cb2a81"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "2194b0fa5c902374f51790f7613e58c8cfc2330cf78e7222f4d281d12ef92ad5"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "54db6008edd25ece7e46f6a5a9a0a6fa6dba0b88144b46c75becea04667d28c8"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "928b471a21cd6a323f715bbe4a9c15c77cbc8c1ae30655d9aa11f13a76458ed8"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "a275664d7d26d7386738063717a370b97597d46d8dad857d83a159156f35abcc"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "6a2bc6aba716f176c9c5dad15f4fe97484c45dba1ce65da5be159cf72bdd3fcd"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "ffc65cf4f889c7a7b042b7b875dacb6ff823fcf8c919061fad944f89b04ae657"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "94cfecc7a9b74e8ded508d1f6e0668a85f47185690430fe8a7ed50f5e3c6a4ec"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "b4dd5d95345a5e6c02b0c92fabfd1b5ee58e4c148745f3655f9af193a4f46f5d"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "5f7d1ee019f592741350c79a9195400ee254f7d4ff44ab02f3d57dbfdb6d53e8"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "3a1d8b3187984b83efe9dc3c412064f019b042c1aa4209f8f02d947d8a600a1e"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "knowledge_distillation",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "178b014274e106b4b502da4ae75e7fcfad51c57a656d27c5136c931007150bda"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 0,
+      "sha256": "7d13a376f6a121173f6afcd047fa6d57bb994e9148210f5ba9d9d263c53c3d0a"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 1,
+      "sha256": "ea58fd019c8b6423a9ccfc9da0f61f150a94790f6cfa4b17766a7f9d24785771"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 2,
+      "sha256": "ac1d7c68df5b41f3ac05d3282dd01dd18a42b890c059deb3589cc02c0de59ba0"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 3,
+      "sha256": "43a9ea1f61877d0aeb12f4481015980961bd11dd94dccdfcf3aef27d570c2305"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 17,
+      "fold": 4,
+      "sha256": "8c57aaf6fad8d45a15603afcc2657b1ccd03704b18308226c427f3626e6e6c28"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 0,
+      "sha256": "acc5f2be512088a930ff484aa53ab858caab89652b5c6972aa594b23ad510cb6"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 1,
+      "sha256": "6203a6c951ee569f1b1f92a98f50a6d2f41ec4d7720181381c53ce6c2b10ccf7"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 2,
+      "sha256": "4a4b3152c838e623d02bdb7b0444c661e171a453c55aabfab8b283236c81b94c"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 3,
+      "sha256": "5b46cd593bb4a9fdbb3b6a32175e3bd9c91eee586fd0ea9e635e64f9b4b78de2"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 42,
+      "fold": 4,
+      "sha256": "3aab2dace1a5f4497cbb38a24189ac223c48a7315da4a7ffa566d0dc09d3c3fb"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 0,
+      "sha256": "6283053068abd1cd9c1d958413607ce90c59d1a026c333301835908970838ab3"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 1,
+      "sha256": "778e007ebf07023c624728d9206275ca72063142324612e8852f1ea0190b5427"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 2,
+      "sha256": "6ff8e0e4e3be180d012d5d8d2799d9f790932889d7d81e338d53e2846c0e25e1"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 3,
+      "sha256": "c63f64bf87ee8b594384f4040b6f6b07789ebcf86c92369e08b0f01fe0b8c554"
+    },
+    {
+      "architecture": "YOLO",
+      "strategy": "pretraining_and_distillation",
+      "seed": 2026,
+      "fold": 4,
+      "sha256": "871ea46d4af5b558de88459910d5f9d43605acff2d6f77627812e5438779d54a"
+    }
+  ],
+  "data_sha256": "0cb186167456873855d41611b0fe76c9937330949bdb406461d73f973c538271",
+  "scope": "Saved clinical model assessments only. This data file does not replace training images, masks or network weights."
+}

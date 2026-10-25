@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "validation_date": "2026-10-25",
+  "main_reference_results": {
+    "status": "PASS",
+    "regional_records": 88560,
+    "fitted_models": 120,
+    "regions": 369,
+    "published_means_and_SDs_verified": 544,
+    "maximum_absolute_difference": 2.842170943040401e-14,
+    "manuscript_cells_verified": 120
+  },
+  "statistical_reference_results": {
+    "all_six_reference_contrasts_match": true,
+    "maximum_absolute_differences": {
+      "odds_ratio": 0.0,
+      "or_lower": 0.0,
+      "or_upper": 0.0,
+      "p_nominal": 0.0
+    },
+    "both_final_models_converged_non_singular": true,
+    "nnunet_zero_terms_removed": [],
+    "yolo_zero_terms_removed": [
+      "run"
+    ]
+  },
+  "statistical_runtime": {
+    "R": "4.5.1",
+    "lme4": "2.0-6",
+    "jsonlite": "2.0.0"
+  },
+  "benchmark_reference_results": {
+    "status": "PASS",
+    "summary_values_verified": 1980,
+    "additional_regional_records": 11638,
+    "additional_seed_summaries": 9
+  },
+  "updated_data_preparation": {
+    "status": "PASS",
+    "scientific_files_verified": 4793,
+    "Pillow": "10.2.0",
+    "main": {
+      "yolo": {
+        "lab_crops": 2270,
+        "clinical_regions": 1322,
+        "native_positive": 535,
+        "lost_on_model_grid": 1,
+        "review_disagreements": 1,
+        "context_exclusions": 2,
+        "validation_regions": [
+          273,
+          267,
+          256,
+          266,
+          260
+        ]
+      },
+      "nnunet": {
+        "lab_crops": 2270,
+        "clinical_regions": 1322,
+        "native_positive": 535,
+        "lost_on_model_grid": 3,
+        "review_disagreements": 1,
+        "context_exclusions": 2,
+        "validation_regions": [
+          273,
+          267,
+          256,
+          266,
+          260
+        ]
+      }
+    },
+    "benchmark": {
+      "laboratory_regions": 2270,
+      "clinical_regions": 1322,
+      "clinical_images": 100,
+      "native_positive_regions": 535,
+      "image_PNG_hashes_verified": 1422,
+      "updated_masks_frozen_separately": 1422
+    }
+  },
+  "full_GPU_training_executed": false,
+  "fresh_model_inference_executed": false,
+  "scope": "CPU preparation and result-reproduction checks were executed. Full GPU training and subsequent inference are provided as workflows but were not executed as part of this release validation. Updated Refined DCBR masks are a distinct input version; their model performance is not assumed to equal the recorded results.",
+  "public_unit_tests": {
+    "status": "PASS",
+    "tests": 14
+  },
+  "python_source_compile_check": {
+    "status": "PASS",
+    "files": 127
+  },
+  "documentation_checks": {
+    "documented_commands_parse": true,
+    "local_links_resolve": true
+  }
+}

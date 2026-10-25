@@ -1,0 +1,947 @@
+[
+  {
+    "group": "laboratory-segresnet",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-segresnet",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-segresnet",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-segresnet",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-nnunet",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-nnunet",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-nnunet",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "laboratory-yolo",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-crops-yolo",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 17,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 17,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 17,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 17,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 17,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 42,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 42,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 42,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 30
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 42,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 42,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 2026,
+    "fold": 0,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 2026,
+    "fold": 1,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 2026,
+    "fold": 2,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 2026,
+    "fold": 3,
+    "epochs": 250,
+    "patience": 0
+  },
+  {
+    "group": "clinical-bitewings-yolo",
+    "seed": 2026,
+    "fold": 4,
+    "epochs": 250,
+    "patience": 0
+  }
+]

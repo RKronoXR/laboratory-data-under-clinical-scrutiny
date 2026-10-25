@@ -1,0 +1,20 @@
+# Recorded versions of the numerical and model-training dependencies.
+# Select a PyTorch build suitable for the local GPU using the official installer.
+torch==2.14.0
+ultralytics==8.4.164
+monai==1.6.0
+nnunetv2==2.8.1
+dynamic-network-architectures==0.4.4
+numpy==2.5.3
+pandas==3.0.6
+Pillow==10.2.0
+PyYAML==6.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+scikit-image==0.26.0
+matplotlib==3.11.2
+seaborn==0.13.2
+batchgenerators==0.25.3
+batchgeneratorsv2==0.3.5
+blosc2==4.14.0
+tqdm

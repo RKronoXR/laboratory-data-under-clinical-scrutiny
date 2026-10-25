@@ -1,0 +1,33 @@
+# Local environments and generated runs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+build/
+dist/
+runs/
+results/
+logs/
+# Original radiographs are obtained from their original data repositories.
+data/downloads/
+data/extracted/
+data/prepared/
+data/Datasets.zip
+# Large generated model files belong in a model/data release, not source control.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.rds
+*.RData
+*.Rhistory
+# Local credentials and machine configuration
+.env
+.env.*
+*credentials*.json
+*service_account*.json
+config.local.*

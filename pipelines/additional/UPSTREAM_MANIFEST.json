@@ -1,0 +1,131 @@
+{
+  "source_archive": "MANUSCRIPT_METHODS_V2_20261024_050532_66df71d3.zip",
+  "files": [
+    {
+      "path": "pipelines/additional/earlier/run.py",
+      "source_member": "project/acta_reverse_kd_v2/run.py",
+      "sha256": "31a04fdceb7dc151b7b5234a6eab5df7bfeb1823e501aeacdb0250fe902b8cf0",
+      "modified": true,
+      "bundled_sha256": "e35d5c810662ed4c0ddfc47f442d144c45a838d681dcb8ca245ec09f6da81bb7",
+      "portable_patch": "Worker-only dispatch replaces the historical interactive/default experiment menus. The same package worker.execute(task_path) receives the unchanged task arguments; no training, inference or metric code is modified."
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/__init__.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/__init__.py",
+      "sha256": "a6ee0f20d92006c89925180ec31d737b83453e639d0a9d29ceb7b6d2db626170"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/_legacy_metrics.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/_legacy_metrics.py",
+      "sha256": "f7d02fee8dddc04b906071b90de2a837f35bf9bd9783f959998dfbef7b7fbe0e"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/_source.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/_source.py",
+      "sha256": "acad9ebc5773d449c362720742f97db8417961c4aa7c9c349218e75ace94bcb2"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/cache.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/cache.py",
+      "sha256": "6b930fb94f07bc728cef83ddbc92aba7db4f66ce346657833ffbbfba0c214b61"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/check.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/check.py",
+      "sha256": "c18ef493e1dd3ec7c65a150319b6ecbb1e545c08be04297fe8afae90f8ce876c"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/config.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/config.py",
+      "sha256": "5cff1913f591989a52c1de2430d00a34eb58dd0dfdb1968a2f57885387be9ea6"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/data.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/data.py",
+      "sha256": "a4f8f490a5cb2b64f2b41efb30579c440f6363eaf252e8ab6307d36e715714b9",
+      "modified": true,
+      "bundled_sha256": "d3b2fe4737922792f76b80b0c9c7d306e2d11b8abe36d340a52cf44588f856a6",
+      "portable_patch": "Explicit updated-annotation mode keeps native masks authoritative for lesion presence, preserves the supplied context-exclusion flags, logs disagreements with the earlier surface-review presence labels, and records positive native lesions lost on the fixed training grid. It changes no raw pixels, regions, dimensions or splits. Recorded mode retains the original admission checks."
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/hpo.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/hpo.py",
+      "sha256": "7546fb7d867c16ce451aafa3a540dd9b6acc1ef5caaab6a04c459a06da0d3bf7"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/io.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/io.py",
+      "sha256": "638629c8dde493b57c319c3692c5b0605a7f5c4b82dab5463b7d17056ce8216c"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/metrics.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/metrics.py",
+      "sha256": "05b3b793f84bbfdc783709cf06b29a8308c90919f2a7d26da02751626511b07b"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/monitor.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/monitor.py",
+      "sha256": "9f0e38b79d664d9124218d5012d5e4e78c062ef2b0a947c90f3f81ae6919024b"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/pipeline.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/pipeline.py",
+      "sha256": "580a8eeb517749a5ba346b9bd926de7fcb05d9eaac4f500865357e61bf588ad1"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/preflight.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/preflight.py",
+      "sha256": "0f45f0dcb3405d2a841cc0c42f94895df156c7c025f7360d7357bfc8e95be99b"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/processes.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/processes.py",
+      "sha256": "e9c26d7a517147d0e59de839c1145d01e13e66aca79a8947ac91c9ab2cd71844"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/professor.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/professor.py",
+      "sha256": "6ba1c203a7c90f13b10b870e1ebff2238cf667ee32315e6d9ff43e4456b95284"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/report.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/report.py",
+      "sha256": "32cc355a2ca7bc73f46ee5f19c77205f639d9af993b4c5b3a6911229100142b2"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/reuse.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/reuse.py",
+      "sha256": "5b4fbfbbea32aa25b68720efaaef3290a585714a21c1a4947b1a2bd610e7f917"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/statistics.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/statistics.py",
+      "sha256": "ffb6efc70a117b618302f326451359c50f0e8fb63f91290d1b36abe4d44674d5"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/student.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/student.py",
+      "sha256": "cfce2ad166e08ddd262cd256a513f478501070edca47b73d07cb2120340c204d"
+    },
+    {
+      "path": "pipelines/additional/earlier/reversekd/worker.py",
+      "source_member": "project/acta_reverse_kd_v2/reversekd/worker.py",
+      "sha256": "ef476a904f8ecddfce30efd9eb6e1869b962730c772be5b21e1027decbe562e5"
+    },
+    {
+      "path": "pipelines/additional/earlier/analysis/glmm.R",
+      "source_member": "project/acta_reverse_kd_v2/analysis/glmm.R",
+      "sha256": "f208c323a958b43cfadbe1db147e7268adb31c453a93b5d6dd8937cca4b0ff34"
+    },
+    {
+      "path": "pipelines/additional/earlier/docs/REUSE_BASELINE.json",
+      "source_member": "project/acta_reverse_kd_v2/docs/REUSE_BASELINE.json",
+      "sha256": "3929e63a3646d6a72e29c84b33337a31819734bb745111429596adf67ac0f77e"
+    },
+    {
+      "path": "pipelines/additional/earlier/docs/REUSE_V1_SOURCE_HASHES.json",
+      "source_member": "project/acta_reverse_kd_v2/docs/REUSE_V1_SOURCE_HASHES.json",
+      "sha256": "be83203c735209ab9681631934e19ec0daa807dc38f236fdc4b659b7d9790d41"
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+group_id,group_label,architecture,training_dataset,approach,threshold_name,metric,mean,sd,n_complete_seeds
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,accuracy,0.4747706422018349,0.019235085054142405,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,balanced_accuracy,0.535747741504979,0.016134352365083725,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,dice_positive_mean,0.4798188024446175,0.0023990276680831524,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,dice_positive_median,0.5561352125387555,0.007012996752508658,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,dice_positive_std,0.2733067331755596,0.0036716639362584687,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,dice_tp_mean,0.5342040969169383,0.007866612175075767,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,dice_tp_median,0.5890577555718464,0.012757357402129556,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,dice_tp_std,0.23249833326229763,0.002624511187950731,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,f1,0.587303313599021,0.008429310440664858,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,fn,55.333333333333336,5.131601439446884,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,fp,631.6666666666666,27.061657993059725,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,mcc,0.09916148830014704,0.04095097838758992,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,mislocalized_positive_surfaces,40.0,3.605551275463989,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,n_dice_positive,544.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,n_dice_tp,488.6666666666667,5.131601439446884,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,n_negative,764.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,n_positive,544.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,npv,0.7015000745378653,0.0422497075814063,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,overlap_auprc_ap,0.7014599187275586,0.00919153979662602,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,overlap_auprc_trapezoid,0.7011248512778315,0.009211105614520564,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,overlap_auroc,0.7172321726465455,0.011385204002396584,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_accuracy,0.9796505826175551,0.0012850046059733563,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_balanced_accuracy,0.7127079156094415,0.004626395221941736,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_dice_micro,0.3653034829423032,0.009059619365250758,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_f1,0.3653034829423032,0.009059619365250758,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_fn,743456.3333333334,14139.087464660983,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_fp,1276195.6666666667,141502.9957503845,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_iou_micro,0.22349371111467223,0.006773196025649767,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_mcc,0.3606286532188894,0.0071122664517614415,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_n,99248640.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_npv,0.9923664888005462,0.00013307912426434396,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_ppv,0.3136860670888299,0.018677906328374145,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_reference_positive,1323932.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_sensitivity,0.43844824860088477,0.010679617582066899,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_specificity,0.9869675826179979,0.001445018306823899,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_tn,96648512.33333333,141502.9957503845,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_tp,580475.6666666666,14139.087464660983,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,pixel_youden_j,0.42541583121888277,0.009252790443883474,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,ppv,0.4363355046122768,0.009516414559558565,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,sensitivity,0.8982843137254902,0.009433090881336212,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,specificity,0.1732111692844677,0.03542101831552319,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_auprc_ap,0.7385187761024842,0.010736930912421287,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_auprc_trapezoid,0.7382038397980457,0.010746441705960327,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_auroc,0.7793455978595626,0.0126040577756444,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_accuracy,0.5053516819571865,0.018928774316727733,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_balanced_accuracy,0.5725124473873319,0.01560198004286589,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_f1,0.6204700648793424,0.007944655562321908,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_fn,15.333333333333334,2.516611478423583,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_fp,631.6666666666666,27.061657993059725,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_mcc,0.22507739640789395,0.029908552317452233,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_n_negative,764.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_n_positive,544.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_npv,0.8953838375981955,0.008444870451822586,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_ppv,0.4557753178480713,0.009444077305714147,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_sensitivity,0.971813725490196,0.004626124041219805,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_specificity,0.1732111692844677,0.03542101831552319,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_tn,132.33333333333334,27.061657993059725,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_tp,528.6666666666666,2.516611478423583,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,surface_detection_youden_j,0.14502489477466382,0.03120396008573178,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,threshold_max,0.5,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,threshold_min,0.5,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,tn,132.33333333333334,27.061657993059725,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,tp,488.6666666666667,5.131601439446884,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,fixed,youden_j,0.07149548300995796,0.032268704730167456,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,accuracy,0.6857798165137615,0.010593582920910566,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,balanced_accuracy,0.6701474437942716,0.012523949954461926,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,dice_positive_mean,0.2466710782042294,0.015211399908084141,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,dice_positive_median,0.12227775871805065,0.05600057378960962,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,dice_positive_std,0.2804534115014479,0.0028280540305715214,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,dice_tp_mean,0.4271688806111286,0.011367005599896875,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,dice_tp_median,0.43235201348504265,0.023560583935571533,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,dice_tp_std,0.24339134140051924,0.006708803585216975,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,f1,0.6042808445512621,0.018164276859383474,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,fn,230.0,13.228756555322953,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,fp,181.0,2.6457513110645907,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,mcc,0.34579693797310423,0.023809551143521894,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,mislocalized_positive_surfaces,28.333333333333332,4.725815626252609,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,n_dice_positive,544.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,n_dice_tp,314.0,13.228756555322953,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,n_negative,764.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,n_positive,544.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,npv,0.7172188480856088,0.011748109432723829,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,overlap_auprc_ap,0.7014599187275586,0.00919153979662602,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,overlap_auprc_trapezoid,0.7011248512778315,0.009211105614520564,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,overlap_auroc,0.7172321726465455,0.011385204002396584,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_accuracy,0.9873584363473394,9.55652934343984e-05,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_balanced_accuracy,0.5726888687610032,0.004234622155507815,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_dice_micro,0.2362770871604253,0.011462175146022524,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_f1,0.2362770871604253,0.011462175146022524,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_fn,1129773.3333333333,11280.950506643194,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_fp,124884.66666666667,8791.507966972067,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_iou_micro,0.13399689699752568,0.00736911436752203,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_mcc,0.2945764996518057,0.010192545655723459,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_n,99248640.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_npv,0.9885800392157195,0.00011213729269922076,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_ppv,0.6086315853196943,0.013876219616182755,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_reference_positive,1323932.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_sensitivity,0.1466530506602051,0.00852079299136451,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_specificity,0.9987246868618014,8.977824030858837e-05,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_tn,97799823.33333333,8791.507966972067,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_tp,194158.66666666666,11280.950506643194,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,pixel_youden_j,0.14537773752200653,0.008469244311015629,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,ppv,0.6341753275664436,0.01096146176145355,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,sensitivity,0.5772058823529412,0.024317567197284815,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,specificity,0.7630890052356021,0.0034630252762625413,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_auprc_ap,0.7385187761024842,0.010736930912421287,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_auprc_trapezoid,0.7382038397980457,0.010746441705960327,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_auroc,0.7793455978595626,0.0126040577756444,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_accuracy,0.7074413863404688,0.014145452687439256,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_balanced_accuracy,0.6961891104609382,0.016753659785585687,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_f1,0.6412311284406258,0.023149242872049294,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_fn,201.66666666666666,17.672954855748753,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_fp,181.0,2.6457513110645907,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_mcc,0.3947308051044576,0.03165075438579798,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_n_negative,764.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_n_positive,544.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_npv,0.7432312877387992,0.016771187768258172,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_ppv,0.6538742780122636,0.013154467939144784,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_sensitivity,0.6292892156862745,0.03248704936718522,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_specificity,0.7630890052356021,0.0034630252762625413,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_tn,583.0,2.6457513110645907,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_tp,342.3333333333333,17.67295485574875,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,surface_detection_youden_j,0.3923782209218767,0.033507319571171375,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,threshold_max,0.9850840171178182,0.006942076217055264,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,threshold_min,0.9714377522468567,0.00887190050258804,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,tn,583.0,2.6457513110645907,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,tp,314.0,13.228756555322953,3
+monai_segresnet_dcbr_crops,MONAI SegResNet | DCBR | Crops,monai_segresnet,dcbr,crops,youden,youden_j,0.34029488758854326,0.02504789990892385,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,accuracy,0.6195208970438328,0.05522256159340202,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,balanced_accuracy,0.6558634252130171,0.0445765305845239,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,dice_positive_mean,0.46930647772953904,0.004293717729630186,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,dice_positive_median,0.5418587179632101,0.01569453365905031,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,dice_positive_std,0.2769815203666615,0.009721280417458105,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,dice_tp_mean,0.5384631941786866,0.016024082939323975,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,dice_tp_median,0.5865174893209072,0.019915105823299965,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,dice_tp_std,0.22526855642773388,0.0024492206059441458,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,f1,0.657072140750688,0.027227641270545777,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,fn,69.66666666666667,10.214368964029708,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,fp,428.0,82.41965784932621,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,mcc,0.33181508706219986,0.07494650781534676,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,mislocalized_positive_surfaces,28.0,1.7320508075688772,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,n_dice_positive,544.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,n_dice_tp,474.3333333333333,10.214368964029708,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,n_negative,764.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,n_positive,544.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,npv,0.8257728244354676,0.016383772307000815,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,overlap_auprc_ap,0.7509120252495388,0.03221704232188779,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,overlap_auprc_trapezoid,0.7505832964606786,0.03224131157388633,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,overlap_auroc,0.7862281529103788,0.023879345305002977,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_accuracy,0.9791917215859751,0.0031170560974189054,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_balanced_accuracy,0.7744927012540551,0.009770657134219483,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_dice_micro,0.4215222675360535,0.027391383303625682,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_f1,0.4215222675360535,0.027391383303625682,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_fn,576992.3333333334,29692.036412703885,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_fp,1488201.0,334725.2161116637,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_iou_micro,0.26729550944739805,0.021781130199914865,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_mcc,0.426428448307892,0.02083177536333957,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_n,99248640.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_npv,0.9940530712845735,0.0002866486596855746,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_ppv,0.3384282262940867,0.03975073018960094,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_reference_positive,1323932.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_sensitivity,0.564182802943555,0.022427161223313487,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_specificity,0.9848025995645552,0.0034181895759307418,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_tn,96436507.0,334725.2161116637,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_tp,746939.6666666666,29692.036412703885,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,pixel_youden_j,0.5489854025081101,0.019541314268438966,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,ppv,0.528482242614333,0.0410965935475229,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,sensitivity,0.8719362745098039,0.01877641353681935,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,specificity,0.43979057591623033,0.1078791333106364,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_auprc_ap,0.7738398734650751,0.031449881176732225,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_auprc_trapezoid,0.7735259070457737,0.03147318595866246,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_auroc,0.8203654334770558,0.02157494214804532,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_accuracy,0.6409276248725789,0.05393205735055912,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_balanced_accuracy,0.6815987193306642,0.04302726381588809,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_f1,0.6825789205184526,0.026820036497492372,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_fn,41.666666666666664,11.930353445448853,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_fp,428.0,82.41965784932621,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_mcc,0.3957665140741944,0.06408093425702154,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_n_negative,764.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_n_positive,544.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_npv,0.8904967285918813,0.005555643042612729,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_ppv,0.5426780917906159,0.04044432186815567,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_sensitivity,0.923406862745098,0.021930796774722143,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_specificity,0.43979057591623033,0.1078791333106364,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_tn,336.0,82.41965784932621,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_tp,502.3333333333333,11.930353445448853,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,surface_detection_youden_j,0.36319743866132836,0.08605452763177618,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,threshold_max,0.5,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,threshold_min,0.5,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,tn,336.0,82.41965784932621,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,tp,474.3333333333333,10.214368964029708,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,fixed,youden_j,0.31172685042603426,0.0891530611690478,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,accuracy,0.7176350662589194,0.02196377311561192,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,balanced_accuracy,0.7145313622831332,0.02902717143824938,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,dice_positive_mean,0.37548901152931496,0.04727671959123744,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,dice_positive_median,0.41078004284065134,0.09802259274554563,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,dice_positive_std,0.3121568171026393,0.004052922575514749,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,dice_tp_mean,0.5389763194198727,0.009646193455383078,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,dice_tp_median,0.5843000839156622,0.018468783055483377,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,dice_tp_std,0.23109799713967125,0.005054076198577639,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,f1,0.6707921094112558,0.04143167379907815,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,fn,165.33333333333334,43.66157731156002,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,fp,204.0,26.057628441590765,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,mcc,0.42663338430505066,0.05404860836609949,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,mislocalized_positive_surfaces,18.666666666666668,3.2145502536643185,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,n_dice_positive,544.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,n_dice_tp,378.6666666666667,43.66157731156003,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,n_negative,764.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,n_positive,544.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,npv,0.7743692396279265,0.04028838821111283,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,overlap_auprc_ap,0.7509120252495388,0.03221704232188779,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,overlap_auprc_trapezoid,0.7505832964606786,0.03224131157388633,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,overlap_auroc,0.7862281529103788,0.023879345305002977,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_accuracy,0.9862811554227174,0.0003854632569087177,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_balanced_accuracy,0.6749020971678746,0.025423834389745045,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_dice_micro,0.4069014732380543,0.029885274367864544,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_f1,0.4069014732380543,0.029885274367864544,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_fn,853952.0,68744.2357656262,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_fp,507624.6666666667,105993.38661602116,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_iou_micro,0.2557078115466578,0.023403597524070036,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_mcc,0.4061250154264282,0.0233402400832473,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_n,99248640.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_npv,0.9913110447753141,0.000683626215339126,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_ppv,0.4828655563201267,0.018498756711378014,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_reference_positive,1323932.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_sensitivity,0.3549880205327766,0.051924295028465364,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_specificity,0.9948161738029725,0.0010823967595187704,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_tn,97417083.33333333,105993.38661602115,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_tp,469980.0,68744.2357656262,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,pixel_youden_j,0.3498041943357491,0.050847668779490096,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,ppv,0.6498759475432986,0.019391275349525346,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,sensitivity,0.6960784313725491,0.08026025241095593,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,specificity,0.7329842931937174,0.03410684350993552,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_auprc_ap,0.7738398734650751,0.031449881176732225,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_auprc_trapezoid,0.7735259070457737,0.03147318595866246,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_auroc,0.8203654334770558,0.02157494214804532,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_accuracy,0.7319062181447503,0.02442099155567303,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_balanced_accuracy,0.7316882250282312,0.03192154049507238,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_f1,0.6923498159386116,0.04335851282065916,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_fn,146.66666666666666,46.3609030685699,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_fp,204.0,26.057628441590765,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_mcc,0.4596434550146548,0.06012332916739365,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_n_negative,764.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_n_positive,544.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_n_surfaces,1308.0,0.0,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_npv,0.7952758875485756,0.04615320535499789,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_ppv,0.6606820685831193,0.02015852051837773,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_sensitivity,0.7303921568627452,0.08522224828781234,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_specificity,0.7329842931937174,0.03410684350993552,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_tn,560.0,26.057628441590765,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_tp,397.3333333333333,46.3609030685699,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,surface_detection_youden_j,0.46337645005646233,0.06384308099014475,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,threshold_max,0.8729626735051473,0.07169870448167222,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,threshold_min,0.7679518858591715,0.05218147797258767,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,tn,560.0,26.057628441590765,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,tp,378.6666666666667,43.66157731156003,3
+monai_segresnet_dcbr_full,MONAI SegResNet | DCBR | Full BW,monai_segresnet,dcbr,full,youden,youden_j,0.4290627245662664,0.05805434287649876,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,accuracy,0.7566258919469929,0.0024576072275720976,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,balanced_accuracy,0.7341456215994251,0.003647141722863232,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,dice_positive_mean,0.36093716121786135,0.009066101850722529,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,dice_positive_median,0.359787612006399,0.030171086465282826,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,dice_positive_std,0.34453410370567245,0.001052217191545821,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,dice_tp_mean,0.6011431454862182,0.004578572713298097,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,dice_tp_median,0.6629109128240602,0.011938050419766961,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,dice_tp_std,0.2305612084160663,0.004761955559746914,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,f1,0.6722946107095703,0.007369571896742757,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,fn,217.33333333333334,10.016652800877813,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,fp,101.0,10.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,mcc,0.4922195774825692,0.005490332027990786,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,mislocalized_positive_surfaces,15.666666666666666,1.5275252316519468,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,n_dice_positive,544.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,n_dice_tp,326.6666666666667,10.016652800877813,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,n_negative,764.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,n_positive,544.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,npv,0.7532098234078576,0.006048184655259477,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,overlap_auprc_ap,0.7613962464904139,0.010632875472387565,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,overlap_auprc_trapezoid,0.7610795762460016,0.010949013357183747,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,overlap_auroc,0.7657441003233755,0.0046436997605598255,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_accuracy,0.988730905195947,0.00012282906977483904,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_balanced_accuracy,0.6691414487832962,0.005715615119909107,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_dice_micro,0.4464629544706822,0.008701739530232247,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_f1,0.4464629544706822,0.008701739530232247,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_fn,872746.6666666666,15350.401503978108,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_fp,245695.66666666666,20149.92817191499,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_iou_micro,0.287411775787597,0.0072204048004366255,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_mcc,0.4648184394221,0.0066806606718632575,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_n,99248640.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_npv,0.9911443135817527,0.0001529182459337322,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_ppv,0.6477920160439891,0.013500853756338709,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_reference_positive,1323932.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_sensitivity,0.3407919238551023,0.01159455433056842,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_specificity,0.9974909737114901,0.00020576960180378979,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_tn,97679012.33333333,20149.92817191499,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_tp,451185.3333333333,15350.401503978106,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,pixel_youden_j,0.3382828975665923,0.011431230239818214,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,ppv,0.7642083992277499,0.012804504331424448,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,sensitivity,0.6004901960784313,0.01841296470749598,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,specificity,0.8678010471204188,0.01308900523560208,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_auprc_ap,0.7918349038961123,0.009026790413979153,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_auprc_trapezoid,0.7915325294077818,0.00935371876869212,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_auroc,0.8189827468945694,0.003586332930345137,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_accuracy,0.7686034658511721,0.002335665491822587,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_balanced_accuracy,0.7485451314033466,0.004444623654465278,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_f1,0.6933370720664085,0.00835782349085595,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_fn,201.66666666666666,11.372481406154654,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_fp,101.0,10.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_mcc,0.5178071646972291,0.005102798164492266,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_n_negative,764.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_n_positive,544.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_npv,0.7668905145974741,0.007590552206148175,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_ppv,0.7725448263508025,0.011925584202082827,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_sensitivity,0.6292892156862745,0.02090529670249016,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_specificity,0.8678010471204188,0.01308900523560208,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_tn,663.0,10.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_tp,342.3333333333333,11.372481406154654,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,surface_detection_youden_j,0.4970902628066934,0.008889247308930556,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,threshold_max,0.5,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,threshold_min,0.5,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,tn,663.0,10.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,tp,326.6666666666667,10.016652800877813,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,fixed,youden_j,0.4682912431988502,0.007294283445726464,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,accuracy,0.7538226299694188,0.0026483957302276253,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,balanced_accuracy,0.7347455343393902,0.0050047515181567736,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,dice_positive_mean,0.3745216802100395,0.008188762313015059,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,dice_positive_median,0.39586845140487154,0.022331833544809825,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,dice_positive_std,0.3446980124107207,0.0012674992780874745,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,dice_tp_mean,0.6029232565568591,0.0068889463711001905,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,dice_tp_median,0.6622949718807778,0.006692091271783708,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,dice_tp_std,0.23106776663396267,0.006729194030944055,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,f1,0.6772399838183039,0.009244273220533554,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,fn,206.0,11.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,fp,116.0,8.18535277187245,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,mcc,0.4862237392595792,0.005995290663615786,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,mislocalized_positive_surfaces,17.0,1.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,n_dice_positive,544.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,n_dice_tp,338.0,11.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,n_negative,764.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,n_positive,544.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,npv,0.758893211247687,0.007530337916610913,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,overlap_auprc_ap,0.7613962464904139,0.010632875472387565,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,overlap_auprc_trapezoid,0.7610795762460016,0.010949013357183747,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,overlap_auroc,0.7657441003233755,0.0046436997605598255,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_accuracy,0.9885314599776883,6.961235768786702e-05,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_balanced_accuracy,0.6791459848633443,0.005276384273977796,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_dice_micro,0.4565908255430737,0.008094937388520905,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_f1,0.4565908255430737,0.008094937388520905,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_fn,845621.6666666666,14117.82491509699,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_fp,292615.3333333333,12460.168310794736,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_iou_micro,0.29585648483672883,0.006816757559248332,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_mcc,0.4681926886119916,0.00651529573525912,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_n,99248640.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_npv,0.9914130895217621,0.00014119590817043292,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_ppv,0.6205027328046121,0.005325588088778271,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_reference_positive,1323932.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_sensitivity,0.36128013624063265,0.010663557429759971,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_specificity,0.9970118334860562,0.0001272423330667287,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_tn,97632092.66666667,12460.168310794736,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_tp,478310.3333333333,14117.82491509699,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,pixel_youden_j,0.3582919697266888,0.010552768547955591,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,ppv,0.7446915101502309,0.00736216819391778,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,sensitivity,0.6213235294117647,0.020220588235294157,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,specificity,0.8481675392670157,0.010713812528628875,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_auprc_ap,0.7918349038961123,0.009026790413979153,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_auprc_trapezoid,0.7915325294077818,0.00935371876869212,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_auroc,0.8189827468945694,0.003586332930345137,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_accuracy,0.7668195718654434,0.003332491547049408,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_balanced_accuracy,0.7503705343393902,0.005672502166107152,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_f1,0.6993903407128214,0.009553841391312642,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_fn,189.0,11.532562594670797,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_fp,116.0,8.18535277187245,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_mcc,0.5142874767211479,0.007516718733042226,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_n_negative,764.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_n_positive,544.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_npv,0.7743243278107484,0.00854959115199409,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_ppv,0.7539046271025703,0.0073834427321012586,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_sensitivity,0.6525735294117647,0.02119956359314488,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_specificity,0.8481675392670157,0.010713812528628875,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_tn,648.0,8.18535277187245,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_tp,355.0,11.532562594670797,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,surface_detection_youden_j,0.5007410686787803,0.011345004332214303,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,threshold_max,0.5038786927858988,0.28832141848505227,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,threshold_min,0.23164584239323935,0.09506827237082521,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,tn,648.0,8.18535277187245,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,tp,338.0,11.0,3
+nnunetv2_dcbr_crops,nnU-Net v2 | DCBR | Crops,nnunetv2,dcbr,crops,youden,youden_j,0.4694910686787804,0.010009503036313547,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,accuracy,0.8274719673802243,0.006937134347001101,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,balanced_accuracy,0.8150825120624167,0.006067016175582811,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,dice_positive_mean,0.4405801838010703,0.00804146652356066,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,dice_positive_median,0.5423829932271605,0.004979502012946351,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,dice_positive_std,0.3218847709626183,0.0050031210932074644,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,dice_tp_mean,0.5942627359664429,0.002611197172245286,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,dice_tp_median,0.651335944073138,0.009995747364474653,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,dice_tp_std,0.21994121820762816,0.004921234114816682,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,f1,0.7814096005147954,0.007249567098150212,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,fn,140.66666666666666,8.504900548115382,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,fp,85.0,13.228756555322953,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,mcc,0.6424167361719354,0.01466541256547819,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,mislocalized_positive_surfaces,15.0,1.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,n_dice_positive,544.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,n_dice_tp,403.3333333333333,8.504900548115382,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,n_negative,764.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,n_positive,544.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,npv,0.8284681701090074,0.006852322127504816,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,overlap_auprc_ap,0.8460640500794652,0.008479116007034555,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,overlap_auprc_trapezoid,0.8470175201938396,0.007321332350898375,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,overlap_auroc,0.8649085534082742,0.006251107633512695,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_accuracy,0.9898383729321968,9.42543278447683e-05,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_balanced_accuracy,0.6963432221891105,0.004628451099071326,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_dice_micro,0.5089318525412345,0.0072127631239540715,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_f1,0.5089318525412345,0.0072127631239540715,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_fn,801239.3333333334,12366.209052629401,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_fp,207288.33333333334,11749.600518031808,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_iou_micro,0.34134129939524943,0.0065064666437780975,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_mcc,0.5272486719707313,0.005896740642679579,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_n,99248640.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_npv,0.9918671483606621,0.0001238264920584844,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_ppv,0.7161635592207426,0.008981605948821164,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_reference_positive,1323932.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_sensitivity,0.39480325777054004,0.009340516773240153,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_specificity,0.9978831866076808,0.00011998606641780172,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_tn,97717419.66666667,11749.600518031808,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_tp,522692.6666666667,12366.2090526294,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,pixel_youden_j,0.392686444378221,0.009256902198142652,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,ppv,0.8264721482855554,0.020721033352029038,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,sensitivity,0.7414215686274509,0.015634008360506216,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,specificity,0.8887434554973822,0.017315126381312745,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_auprc_ap,0.8648012038605426,0.009443232253513931,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_auprc_trapezoid,0.8657596840079962,0.008195133553538765,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_auroc,0.8962287303664921,0.005275012478352861,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_accuracy,0.8389398572884813,0.007103649268484397,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_balanced_accuracy,0.8288692767682989,0.005943280658282185,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_f1,0.7988808319992663,0.006956217212696681,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_fn,125.66666666666667,7.505553499465135,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_fp,85.0,13.228756555322953,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_mcc,0.6665578650906493,0.014719532132008904,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_n_negative,764.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_n_positive,544.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_npv,0.8438990952930858,0.0062676940096213565,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_ppv,0.8316220215445022,0.020506033652013436,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_sensitivity,0.7689950980392157,0.013796973344605033,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_specificity,0.8887434554973822,0.017315126381312745,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_tn,679.0,13.228756555322953,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_tp,418.3333333333333,7.505553499465135,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,surface_detection_youden_j,0.6577385535365979,0.01188656131656437,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,threshold_max,0.5,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,threshold_min,0.5,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,tn,679.0,13.228756555322953,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,tp,403.3333333333333,8.504900548115382,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,fixed,youden_j,0.6301650241248332,0.012134032351165622,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,accuracy,0.8228848114169215,0.009248342156791071,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,balanced_accuracy,0.8137142618827635,0.01301793622080676,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,dice_positive_mean,0.4473005582953708,0.038782117130384895,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,dice_positive_median,0.5416408191846884,0.06255189507102946,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,dice_positive_std,0.31873782712337034,0.00805844482293219,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,dice_tp_mean,0.5886830626616897,0.030238944079209365,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,dice_tp_median,0.6476333136690496,0.04010502258400756,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,dice_tp_std,0.22535142324477067,0.006133790272111623,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,f1,0.7806589075091458,0.016780171769957962,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,fn,131.0,20.952326839756964,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,fp,100.66666666666667,12.096831541082704,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,mcc,0.6336851568354128,0.020630244885094278,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,mislocalized_positive_surfaces,14.333333333333334,4.041451884327381,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,n_dice_positive,544.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,n_dice_tp,413.0,20.952326839756964,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,n_negative,764.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,n_positive,544.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,npv,0.8356037083148425,0.02017300892759196,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,overlap_auprc_ap,0.8460640500794652,0.008479116007034555,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,overlap_auprc_trapezoid,0.8470175201938396,0.007321332350898375,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,overlap_auroc,0.8649085534082742,0.006251107633512695,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_accuracy,0.9895643842911434,0.00023119412564326234,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_balanced_accuracy,0.7056623545050971,0.027841828354077544,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_dice_micro,0.5125715851649236,0.04066898323822613,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_f1,0.5125715851649236,0.04066898323822613,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_fn,775852.6666666666,74424.31209177102,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_fp,259868.0,52219.738863766834,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_iou_micro,0.34526340361323554,0.03625728427370451,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_mcc,0.5246641563894244,0.03082681957501115,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_n,99248640.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_npv,0.9921192159467908,0.000745448074297098,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_ppv,0.6799668326940438,0.015591925858222928,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_reference_positive,1323932.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_sensitivity,0.4139784621365246,0.05621460323624703,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_specificity,0.9973462468736695,0.0005332641774511922,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_tn,97664840.0,52219.738863766834,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_tp,548079.3333333334,74424.31209177102,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,pixel_youden_j,0.41132470901019413,0.05568365670815509,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,ppv,0.8044528368834986,0.013131670494138834,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,sensitivity,0.7591911764705882,0.03851530669072974,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,specificity,0.8682373472949388,0.0158335491375428,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_auprc_ap,0.8648012038605426,0.009443232253513931,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_auprc_trapezoid,0.8657596840079962,0.008195133553538765,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_auroc,0.8962287303664921,0.005275012478352861,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_accuracy,0.8338430173292558,0.006226703222665964,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_balanced_accuracy,0.8268882814906068,0.009679603016121495,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_f1,0.7970571203625288,0.012239206126062824,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_fn,116.66666666666667,18.036999011291577,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_fp,100.66666666666667,12.096831541082704,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_mcc,0.6571861252053056,0.014458376501089864,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_n_negative,764.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_n_positive,544.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_n_surfaces,1308.0,0.0,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_npv,0.8508621952524935,0.017613683861864904,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_ppv,0.8097892861920265,0.013129400225208763,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_sensitivity,0.7855392156862745,0.033156248182521275,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_specificity,0.8682373472949388,0.0158335491375428,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_tn,663.3333333333334,12.096831541082704,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_tp,427.3333333333333,18.036999011291577,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,surface_detection_youden_j,0.6537765629812134,0.01935920603224299,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,threshold_max,0.5972145746151606,0.40927758240614764,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,threshold_min,0.06418722122907639,0.05973504819800193,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,tn,663.3333333333334,12.096831541082704,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,tp,413.0,20.952326839756964,3
+nnunetv2_dcbr_full,nnU-Net v2 | DCBR | Full BW,nnunetv2,dcbr,full,youden,youden_j,0.6274285237655272,0.026035872441613518,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,accuracy,0.6732925586136597,0.012616609372565311,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,balanced_accuracy,0.6777201391027615,0.008716158566962832,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,dice_positive_mean,0.40216980532806507,0.007969153160485049,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,dice_positive_median,0.4803322206879364,0.007347324626754067,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,dice_positive_std,0.3195653788955108,0.0040852320927680765,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,dice_tp_mean,0.5714381996402046,0.0090816731026037,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,dice_tp_median,0.6230652154092869,0.012937052256583637,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,dice_tp_std,0.21974725374051415,0.005289133072308703,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,f1,0.641900527691324,0.006548786082483027,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,fn,161.0,13.45362404707371,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,fp,266.3333333333333,27.592269448766505,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,mcc,0.3508385656900668,0.017551490476147274,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,mislocalized_positive_surfaces,42.333333333333336,6.110100926607787,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,n_dice_positive,544.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,n_dice_tp,383.0,13.45362404707371,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,n_negative,764.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,n_positive,544.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,npv,0.7557472445403562,0.007664723257106908,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,overlap_auprc_ap,0.7049656060905454,0.019503341552913982,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,overlap_auprc_trapezoid,0.7042704032795006,0.019778971614162356,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,overlap_auroc,0.7247214576275537,0.014583195225618231,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_accuracy,0.98558422899632,0.001121281653396391,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_balanced_accuracy,0.7043262811082097,0.015643632361975683,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_dice_micro,0.43458973621302416,0.004380042109775771,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_f1,0.43458973621302416,0.004380042109775771,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_fn,774025.0,43475.49913457004,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_fp,656720.6666666666,153975.5461439684,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_iou_micro,0.2776270223767348,0.0035801444212708975,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_mcc,0.4288826958874931,0.003992341554799772,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_n,99248640.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_npv,0.9921057382625711,0.00042762366707886683,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_ppv,0.4599756474881664,0.03893465251045539,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_reference_positive,1323932.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_sensitivity,0.4153589459277365,0.0328381662612355,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_specificity,0.9932936162886831,0.0015723870848200169,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_tn,97267987.33333333,153975.5461439684,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_tp,549907.0,43475.49913457004,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,pixel_youden_j,0.4086525622164196,0.031287264723951366,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,ppv,0.5905497361568903,0.0182829176827562,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,sensitivity,0.7040441176470589,0.024730926557120766,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,specificity,0.6513961605584643,0.03611553592770486,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_auprc_ap,0.7485033497632907,0.018375597593644453,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_auprc_trapezoid,0.747838157632307,0.01861629985345232,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_auroc,0.7966536418232214,0.012613133212981145,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_accuracy,0.7056574923547401,0.008054781156615221,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_balanced_accuracy,0.7166294528282519,0.0032231039324452687,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_f1,0.688345572572004,0.0042777471415069174,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_fn,118.66666666666667,17.616280348965084,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_fp,266.3333333333333,27.592269448766505,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_mcc,0.4284728369487374,0.005585223060879269,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_n_negative,764.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_n_positive,544.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_npv,0.8081382923363392,0.014075360410405637,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_ppv,0.6156034776938578,0.015419581115636335,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_sensitivity,0.7818627450980392,0.032382868288538764,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_specificity,0.6513961605584643,0.03611553592770486,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_tn,497.6666666666667,27.592269448766505,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_tp,425.3333333333333,17.61628034896508,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,surface_detection_youden_j,0.4332589056565035,0.0064462078648905375,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,threshold_max,0.5,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,threshold_min,0.5,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,tn,497.6666666666667,27.592269448766505,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,tp,383.0,13.45362404707371,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,fixed,youden_j,0.35544027820552304,0.017432317133925665,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,accuracy,0.734454638124363,0.006937134347001132,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,balanced_accuracy,0.7110201083051022,0.0046085509585452366,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,dice_positive_mean,0.26893217374715916,0.02924421324134621,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,dice_positive_median,0.15649349190032627,0.041320120591536516,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,dice_positive_std,0.29515731622713043,0.017702542072484402,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,dice_tp_mean,0.46980462518856997,0.04020467557835384,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,dice_tp_median,0.496000852902777,0.063247075340714,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,dice_tp_std,0.24022923845423683,0.011507827157493563,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,f1,0.6416831230122183,0.003868483536602831,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,fn,233.0,7.211102550927978,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,fp,114.33333333333333,15.37313674346694,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,mcc,0.4443916657621388,0.014617990811903672,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,mislocalized_positive_surfaces,25.666666666666668,3.0550504633038935,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,n_dice_positive,544.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,n_dice_tp,311.0,7.211102550927978,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,n_negative,764.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,n_positive,544.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,npv,0.736048446292104,0.002415828390698152,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,overlap_auprc_ap,0.7049656060905454,0.019503341552913982,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,overlap_auprc_trapezoid,0.7042704032795006,0.019778971614162356,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,overlap_auroc,0.7247214576275537,0.014583195225618231,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_accuracy,0.9879743205213357,0.00012392831946884275,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_balanced_accuracy,0.6090967740074971,0.012728226307461066,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_dice_micro,0.32713135185039877,0.02534978621955908,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_f1,0.32713135185039877,0.02534978621955908,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_fn,1032886.6666666666,34233.33983609156,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_fp,160645.66666666666,40850.571407672294,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_iou_micro,0.19573384535897506,0.018087290123953957,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_mcc,0.3721259984400751,0.013677260398462232,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_n,99248640.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_npv,0.9895455265559572,0.00033864901726041044,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_ppv,0.6481988968790211,0.037335013270739105,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_reference_positive,1323932.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_sensitivity,0.2198340498857444,0.025857324874760612,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_specificity,0.9983594981292497,0.0004171630658083804,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_tn,97764062.33333333,40850.5714076723,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_tp,291045.3333333333,34233.33983609156,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,pixel_youden_j,0.21819354801499422,0.025456452614922135,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,ppv,0.7319307848923714,0.021678330372236338,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,sensitivity,0.5716911764705882,0.013255703218617623,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,specificity,0.850349040139616,0.02012190673228656,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_auprc_ap,0.7485033497632907,0.018375597593644453,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_auprc_trapezoid,0.747838157632307,0.01861629985345232,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_auroc,0.7966536418232214,0.012613133212981145,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_accuracy,0.7540774719673803,0.009184924205372117,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_balanced_accuracy,0.7346107945796119,0.007413835879336086,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_f1,0.6767623164485522,0.007664811689549801,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_fn,207.33333333333334,6.110100926607786,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_fp,114.33333333333333,15.37313674346694,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_mcc,0.48686161618809215,0.019071626799703152,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_n_negative,764.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_n_positive,544.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_npv,0.7580746241336159,0.003917216361399178,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_ppv,0.7471245370378258,0.022684088413174944,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_sensitivity,0.6188725490196079,0.011231803173911393,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_specificity,0.850349040139616,0.02012190673228656,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_tn,649.6666666666666,15.37313674346694,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_tp,336.6666666666667,6.110100926607787,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,surface_detection_youden_j,0.4692215891592238,0.014827671758672173,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,threshold_max,0.9884400765101115,0.006965027698169066,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,threshold_min,0.9695559541384379,0.02524836856602531,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,tn,649.6666666666666,15.37313674346694,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,tp,311.0,7.211102550927978,3
+yolo26_sem_dcbr_crops,YOLO26 | DCBR | Crops,yolo26_sem,dcbr,crops,youden,youden_j,0.42204021661020424,0.009217101917090473,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,accuracy,0.7405708460754332,0.012096273482472775,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,balanced_accuracy,0.7317828636690278,0.010494431179471662,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,dice_positive_mean,0.3860273480402719,0.010745427946349502,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,dice_positive_median,0.4563828035275699,0.017445067320588273,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,dice_positive_std,0.3236661668471874,0.0011513124026023645,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,dice_tp_mean,0.5680539908861234,0.01409006800816603,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,dice_tp_median,0.6350247358941211,0.019139068181409574,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,dice_tp_std,0.2247536847273074,0.010219146685853915,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,f1,0.6855055800680011,0.010456684248806362,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,fn,174.33333333333334,2.3094010767585034,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,fp,165.0,15.524174696260024,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,mcc,0.4649234903505572,0.02304761639704853,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,mislocalized_positive_surfaces,23.0,1.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,n_dice_positive,544.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,n_dice_tp,369.6666666666667,2.309401076758503,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,n_negative,764.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,n_positive,544.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,npv,0.7745120234722093,0.005148894910661551,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,overlap_auprc_ap,0.7557540469592082,0.016975835082423413,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,overlap_auprc_trapezoid,0.7553442928419402,0.017103875854171394,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,overlap_auroc,0.7602378156760086,0.0115503685297121,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_accuracy,0.9868403973428083,3.4466740838118104e-05,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_balanced_accuracy,0.7250527413962683,0.003238373664016586,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_dice_micro,0.480409694340475,0.003748955767702198,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_f1,0.480409694340475,0.003748955767702198,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_fn,720100.6666666666,8683.763604183001,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_fp,585972.0,8743.982845362862,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_iou_micro,0.31614956971256675,0.0032516787423163013,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_mcc,0.4744665994063921,0.00358737628971889,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_n,99248640.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_npv,0.9926564528344786,8.730880059862353e-05,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_ppv,0.507506540951597,0.0014505190526291085,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_reference_positive,1323932.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_sensitivity,0.4560893862625372,0.006559070710718555,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_specificity,0.9940160965299993,8.929291722131066e-05,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_tn,97338736.0,8743.982845362862,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_tp,603831.3333333334,8683.763604183001,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,pixel_youden_j,0.4501054827925366,0.006476747328033172,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,ppv,0.6917793732244176,0.020263434223729598,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,sensitivity,0.6795343137254902,0.004245222567570763,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,specificity,0.7840314136125656,0.020319600387774903,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_auprc_ap,0.78844738541163,0.01734196607587185,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_auprc_trapezoid,0.7880504124701481,0.017474392241800803,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_auroc,0.8192377900112925,0.009298603153708482,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_accuracy,0.7581549439347605,0.011348340508772854,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_balanced_accuracy,0.7529225695513807,0.009608893937563574,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_f1,0.7129451013325229,0.00949100340902846,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_fn,151.33333333333334,2.5166114784235836,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_fp,165.0,15.524174696260024,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_mcc,0.5043008623202194,0.020990545403379628,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_n_negative,764.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_n_positive,544.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_npv,0.7982702043560361,0.004056492468512854,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_ppv,0.7044958738608343,0.019250779495898453,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_sensitivity,0.7218137254901961,0.004626124041219806,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_specificity,0.7840314136125656,0.020319600387774903,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_tn,599.0,15.524174696260024,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_tp,392.6666666666667,2.516611478423583,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,surface_detection_youden_j,0.5058451391027615,0.019217787875127148,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,threshold_max,0.5,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,threshold_min,0.5,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,tn,599.0,15.524174696260024,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,tp,369.6666666666667,2.309401076758503,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,fixed,youden_j,0.46356572733805573,0.020988862358943323,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,accuracy,0.7612130479102955,0.004479713514588917,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,balanced_accuracy,0.7390427702494611,0.005988702558735932,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,dice_positive_mean,0.33686354668240664,0.008270772051864952,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,dice_positive_median,0.3363281612212317,0.026064450786202138,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,dice_positive_std,0.32119115711521967,0.003858358737788974,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,dice_tp_mean,0.5548252074577688,0.010614239435550076,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,dice_tp_median,0.603221495440768,0.01342987679929019,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,dice_tp_std,0.22074481026589507,0.010103113414763288,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,f1,0.6789316602943768,0.009515605831595018,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,fn,213.66666666666666,8.144527815247077,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,fp,98.66666666666667,2.3094010767585034,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,mcc,0.5019286356026206,0.00944199222619401,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,mislocalized_positive_surfaces,20.0,4.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,n_dice_positive,544.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,n_dice_tp,330.3333333333333,8.144527815247077,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,n_negative,764.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,n_positive,544.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,npv,0.7569709022506687,0.006340118516602672,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,overlap_auprc_ap,0.7557540469592082,0.016975835082423413,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,overlap_auprc_trapezoid,0.7553442928419402,0.017103875854171394,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,overlap_auroc,0.7602378156760086,0.0115503685297121,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_accuracy,0.9884156531851049,0.00012975016851419583,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_balanced_accuracy,0.6722110152243701,0.010514168739903988,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_dice_micro,0.44414618066081407,0.01251727278597824,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_f1,0.44414618066081407,0.01251727278597824,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_fn,864078.6666666666,28389.882728418117,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_fp,285652.0,40853.7904239007,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_iou_micro,0.2855234366561356,0.010371591950009789,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_mcc,0.4577595081776568,0.007013285269073239,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_n,99248640.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_npv,0.991228038757486,0.00028211243769811706,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_ppv,0.6180187270898683,0.01940659699427422,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_reference_positive,1323932.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_sensitivity,0.3473390879088452,0.021443610947101604,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_specificity,0.9970829425398952,0.00041719593816813566,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_tn,97639056.0,40853.7904239007,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_tp,459853.3333333333,28389.882728418117,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,pixel_youden_j,0.34442203044874026,0.021028337479807976,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,ppv,0.770003875984318,0.0005616824113313057,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,sensitivity,0.6072303921568628,0.014971558483910078,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,specificity,0.8708551483420593,0.0030227762784796872,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_auprc_ap,0.78844738541163,0.01734196607587185,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_auprc_trapezoid,0.7880504124701481,0.017474392241800803,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_auroc,0.8192377900112925,0.009298603153708482,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_accuracy,0.7765035677879714,0.0071036492684843945,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_balanced_accuracy,0.7574251231906376,0.009147958390952442,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_f1,0.7054792659648292,0.013581637556309395,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_fn,193.66666666666666,11.590225767142472,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_fp,98.66666666666667,2.3094010767585034,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_mcc,0.5344740544629284,0.015029488758927748,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_n_negative,764.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_n_positive,544.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_n_surfaces,1308.0,0.0,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_npv,0.7746492550071672,0.009760556466117136,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_ppv,0.7802173787012823,0.0017356517622609572,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_sensitivity,0.6439950980392157,0.02130556207195306,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_specificity,0.8708551483420593,0.0030227762784796872,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_tn,665.3333333333334,2.3094010767585034,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_tp,350.3333333333333,11.590225767142472,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,surface_detection_youden_j,0.5148502463812751,0.018295916781904883,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,threshold_max,0.965289314587911,0.014239178120451588,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,threshold_min,0.7564187049865723,0.026423420774176795,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,tn,665.3333333333334,2.3094010767585034,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,tp,330.3333333333333,8.144527815247077,3
+yolo26_sem_dcbr_full,YOLO26 | DCBR | Full BW,yolo26_sem,dcbr,full,youden,youden_j,0.47808554049892216,0.011977405117471864,3

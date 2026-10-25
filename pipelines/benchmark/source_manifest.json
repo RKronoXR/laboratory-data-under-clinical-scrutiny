@@ -1,0 +1,258 @@
+{
+  "source_archive_sha256": "d9f23672763834008d26dc56cc5a922dc89611d958c7018f72fc8fa9ee381747",
+  "files": [
+    {
+      "source_member": "project/src/proxcaries/__init__.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/__init__.py",
+      "original_sha256": "a91c7ad86d066e2ea149bb19cbf648a47a3cb68fa5642bbc73b93177d7d1aa9e",
+      "bundled_sha256": "a91c7ad86d066e2ea149bb19cbf648a47a3cb68fa5642bbc73b93177d7d1aa9e"
+    },
+    {
+      "source_member": "project/src/proxcaries/config.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/config.py",
+      "original_sha256": "4a5daa44899993c324bce4086bd802a3b45c8f5cf20c0467cccc16a0b3da8410",
+      "bundled_sha256": "4a5daa44899993c324bce4086bd802a3b45c8f5cf20c0467cccc16a0b3da8410"
+    },
+    {
+      "source_member": "project/src/proxcaries/evaluation.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/evaluation.py",
+      "original_sha256": "3c4d7e80fbd3fb2baf3fdf9c5b6992dce7d52e691b376dfc148e8d03d2d31147",
+      "bundled_sha256": "3c4d7e80fbd3fb2baf3fdf9c5b6992dce7d52e691b376dfc148e8d03d2d31147"
+    },
+    {
+      "source_member": "project/src/proxcaries/metrics.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/metrics.py",
+      "original_sha256": "8ef6f1010cdedf1f20e80c468c9fdde739457b5ec8867a733dbb8cabb0f908f9",
+      "bundled_sha256": "8ef6f1010cdedf1f20e80c468c9fdde739457b5ec8867a733dbb8cabb0f908f9"
+    },
+    {
+      "source_member": "project/src/proxcaries/status.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/status.py",
+      "original_sha256": "c66a96fd50ae6eb1bd3a54c5b5e634b380bf907f39cdc9e5e5e647dc6111e661",
+      "bundled_sha256": "c66a96fd50ae6eb1bd3a54c5b5e634b380bf907f39cdc9e5e5e647dc6111e661"
+    },
+    {
+      "source_member": "project/src/proxcaries/utils.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/utils.py",
+      "original_sha256": "ec6bdd1f02828896b2bbf685f5c8f807d460e52ae958e18b9e46e9deebfa929c",
+      "bundled_sha256": "ec6bdd1f02828896b2bbf685f5c8f807d460e52ae958e18b9e46e9deebfa929c"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/__init__.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/__init__.py",
+      "original_sha256": "3c4f452e0fec73c38e8d35bfa7f05c6e0964afdc90af04a990a62bfa931e7526",
+      "bundled_sha256": "3c4f452e0fec73c38e8d35bfa7f05c6e0964afdc90af04a990a62bfa931e7526"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/backends.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/backends.py",
+      "original_sha256": "3049745630dc44b51a4a6415099e3800b4627f55b5e2204a2b222f1d640da9a7",
+      "bundled_sha256": "3049745630dc44b51a4a6415099e3800b4627f55b5e2204a2b222f1d640da9a7"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/data.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/data.py",
+      "original_sha256": "19c1bdd117d24a289b4a6193a727559f89cdc7eca061ec356d64313e27fad8b2",
+      "bundled_sha256": "bd0ff74db653c7237b36560c12a0fa806684c2938668e9ab9108cbdaddd22bde"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/io.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/io.py",
+      "original_sha256": "e2e9282123e5be48b715cbbe443e64b78067db43303279724682bfb7568d2ae6",
+      "bundled_sha256": "e2e9282123e5be48b715cbbe443e64b78067db43303279724682bfb7568d2ae6"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/metrics.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/metrics.py",
+      "original_sha256": "b68cd3ffb51ab7df51a608dae3d75fdb3cbe7ab5af926fc47e91dada450fb8d9",
+      "bundled_sha256": "b68cd3ffb51ab7df51a608dae3d75fdb3cbe7ab5af926fc47e91dada450fb8d9"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/monai.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/monai.py",
+      "original_sha256": "b59c65a1cdc506f104765a88f46b932d6c25b0c9762b41df1deb6618976d0a23",
+      "bundled_sha256": "b59c65a1cdc506f104765a88f46b932d6c25b0c9762b41df1deb6618976d0a23"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/native_trainer.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/native_trainer.py",
+      "original_sha256": "ce0d698703d4b0effbd00f6d976cbdc4a55ca384b3afb085963e9c250e535766",
+      "bundled_sha256": "ce0d698703d4b0effbd00f6d976cbdc4a55ca384b3afb085963e9c250e535766"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/nnunet.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/nnunet.py",
+      "original_sha256": "3727f62b1aacf442f31bb2e1b5216fd9389d887b8e20e6195e3d7cc443c9fd0e",
+      "bundled_sha256": "3727f62b1aacf442f31bb2e1b5216fd9389d887b8e20e6195e3d7cc443c9fd0e"
+    },
+    {
+      "source_member": "project/dcbr_crops100/crops100/yolo.py",
+      "bundled_path": "pipelines/benchmark/_vendor/crops100/yolo.py",
+      "original_sha256": "ccf6d7c0e9a9643089d19ef0dd69c32c4ce39bb62c24d9d191d2b935e9c4ad64",
+      "bundled_sha256": "ccf6d7c0e9a9643089d19ef0dd69c32c4ce39bb62c24d9d191d2b935e9c4ad64"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_compare/__init__.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_compare/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bundled_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_compare/baseline.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_compare/baseline.py",
+      "original_sha256": "8c386819deefad260814939d5bbf8c7cbe83e6b0f577678dec25602523de1f50",
+      "bundled_sha256": "ad3d6987b59c944a1d4413ca8cd10c4d3f9d56f41c200463283f1507173d3fb7"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_compare/evaluation.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_compare/evaluation.py",
+      "original_sha256": "9613f5daa61948a12fc02d274cc610649dde299e85b850bcaf5e74c0b3f75cd9",
+      "bundled_sha256": "9613f5daa61948a12fc02d274cc610649dde299e85b850bcaf5e74c0b3f75cd9"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_compare/io.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_compare/io.py",
+      "original_sha256": "a784c5d08e6c832738e68db6c8bf330f3caeadb16426f3ebdeda4dedcae10580",
+      "bundled_sha256": "a784c5d08e6c832738e68db6c8bf330f3caeadb16426f3ebdeda4dedcae10580"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_compare/metrics.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_compare/metrics.py",
+      "original_sha256": "b68cd3ffb51ab7df51a608dae3d75fdb3cbe7ab5af926fc47e91dada450fb8d9",
+      "bundled_sha256": "b68cd3ffb51ab7df51a608dae3d75fdb3cbe7ab5af926fc47e91dada450fb8d9"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_compare/training.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_compare/training.py",
+      "original_sha256": "e45ff8e8386e9a67301f31cdc1d5ad52c1bef03f1592c66853007676d02e34fc",
+      "bundled_sha256": "e45ff8e8386e9a67301f31cdc1d5ad52c1bef03f1592c66853007676d02e34fc"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_monai_full/__init__.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_monai_full/__init__.py",
+      "original_sha256": "f7776e9ee16d326ed1cd990579ab68de6df245a464dce50f8b7c4c7d6ad0e0ba",
+      "bundled_sha256": "f7776e9ee16d326ed1cd990579ab68de6df245a464dce50f8b7c4c7d6ad0e0ba"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_monai_full/common.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_monai_full/common.py",
+      "original_sha256": "40d6e387e3673ba990922a1fa58ea6a2bd2576a5f3303bab37edd380c5903712",
+      "bundled_sha256": "0cb05ab544a875984c32d07986e9553e87ba8159fbc9b5ac2abd9789c0775885"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_monai_full/training.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_monai_full/training.py",
+      "original_sha256": "7671b0f0d1a9ac00d7230934f7114415434017167091f596b10fe1f5c5b81d09",
+      "bundled_sha256": "7671b0f0d1a9ac00d7230934f7114415434017167091f596b10fe1f5c5b81d09"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_nnunet/backend.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_nnunet/backend.py",
+      "original_sha256": "7879144f0ef828d51a6282c46ca953c88d6f30528dd88dd052edf13d6af7779e",
+      "bundled_sha256": "7879144f0ef828d51a6282c46ca953c88d6f30528dd88dd052edf13d6af7779e"
+    },
+    {
+      "source_member": "project/dcbr_full_vs_crops/dcbr_nnunet/native_trainer.py",
+      "bundled_path": "pipelines/benchmark/_vendor/dcbr_nnunet/native_trainer.py",
+      "original_sha256": "8831365afddc8c067ff9d762cd4fc182e8c255576ecee64791b6546c574658a6",
+      "bundled_sha256": "8831365afddc8c067ff9d762cd4fc182e8c255576ecee64791b6546c574658a6"
+    },
+    {
+      "source_member": "project/src/proxcaries/data/prepare.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/data/prepare.py",
+      "original_sha256": "1e619abd543b767da65c4716aab5187ca11c2e3aaa9eca30a2cc7e1dfc541344",
+      "bundled_sha256": "0b6c8272be404edf3e050bea54f5ecaae49ebbfce04db6a7291fac064b4439ca"
+    },
+    {
+      "source_member": "project/src/proxcaries/data/splits.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/data/splits.py",
+      "original_sha256": "23617427f4d1561fa14681f4b16a5ad6145deb6a01d06f295e702ea36f19c927",
+      "bundled_sha256": "e7e52664d19db4808b848acc243b41958083e3f3e32c9ea121296d4bfcabe0a9"
+    },
+    {
+      "source_member": "project/src/proxcaries/data/transforms.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/data/transforms.py",
+      "original_sha256": "85ebeeee36d9b64c4dd7223059d3503e96836e8c556b9c5170dbb43d27e3e18a",
+      "bundled_sha256": "85ebeeee36d9b64c4dd7223059d3503e96836e8c556b9c5170dbb43d27e3e18a"
+    },
+    {
+      "source_member": "project/src/proxcaries/data/validate.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/data/validate.py",
+      "original_sha256": "2d3a33d8314ba2167a8549c8ff613a873e3681829d268ae66ca3a36e6453eb1b",
+      "bundled_sha256": "2d3a33d8314ba2167a8549c8ff613a873e3681829d268ae66ca3a36e6453eb1b"
+    },
+    {
+      "source_member": "project/src/proxcaries/training/common.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/training/common.py",
+      "original_sha256": "cae5ef6d761697c095b6e96019102651ab5c2eb84bcc82071492e03b1459f950",
+      "bundled_sha256": "cae5ef6d761697c095b6e96019102651ab5c2eb84bcc82071492e03b1459f950"
+    },
+    {
+      "source_member": "project/src/proxcaries/training/monai_runner.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/training/monai_runner.py",
+      "original_sha256": "869531008fdc8dbe47fc894cc1f60f774cf608f94bba1b1bdbb486a99510779f",
+      "bundled_sha256": "869531008fdc8dbe47fc894cc1f60f774cf608f94bba1b1bdbb486a99510779f"
+    },
+    {
+      "source_member": "project/src/proxcaries/training/nnunet_runner.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/training/nnunet_runner.py",
+      "original_sha256": "732014946f50774a5b92434ac1e45109b70f4e32616f9690d48a5908390f61d0",
+      "bundled_sha256": "732014946f50774a5b92434ac1e45109b70f4e32616f9690d48a5908390f61d0"
+    },
+    {
+      "source_member": "project/src/proxcaries/training/yolo_runner.py",
+      "bundled_path": "pipelines/benchmark/_vendor/proxcaries/training/yolo_runner.py",
+      "original_sha256": "cdf0bf87a2165516584f331517390a1156c4c6b99bae35f0a4cd6ec2673f35c0",
+      "bundled_sha256": "cdf0bf87a2165516584f331517390a1156c4c6b99bae35f0a4cd6ec2673f35c0"
+    }
+  ],
+  "portability_changes": [
+    "MONAI frame reader uses explicit prepared manifests rather than importing a controller script.",
+    "Only the recorded MONAI image-input transformation is retained from the larger inference module.",
+    "Only the required frame, geometry and native input helpers are retained from larger reporting modules.",
+    "Dataset discovery accepts folder aliases while preserving recorded pixel transformations.",
+    "Preparation reuses the frozen assignments and supports an explicit, fingerprinted updated-mask version; original context exclusions remain unchanged.",
+    "Optional progress rendering and deferred split-library import do not alter data or training calculations."
+  ],
+  "bundled_python_sha256": {
+    "pipelines/benchmark/_vendor/crops100/backends.py": "3049745630dc44b51a4a6415099e3800b4627f55b5e2204a2b222f1d640da9a7",
+    "pipelines/benchmark/_vendor/crops100/data.py": "bd0ff74db653c7237b36560c12a0fa806684c2938668e9ab9108cbdaddd22bde",
+    "pipelines/benchmark/_vendor/crops100/io.py": "e2e9282123e5be48b715cbbe443e64b78067db43303279724682bfb7568d2ae6",
+    "pipelines/benchmark/_vendor/crops100/metrics.py": "b68cd3ffb51ab7df51a608dae3d75fdb3cbe7ab5af926fc47e91dada450fb8d9",
+    "pipelines/benchmark/_vendor/crops100/monai.py": "b59c65a1cdc506f104765a88f46b932d6c25b0c9762b41df1deb6618976d0a23",
+    "pipelines/benchmark/_vendor/crops100/native_trainer.py": "ce0d698703d4b0effbd00f6d976cbdc4a55ca384b3afb085963e9c250e535766",
+    "pipelines/benchmark/_vendor/crops100/nnunet.py": "3727f62b1aacf442f31bb2e1b5216fd9389d887b8e20e6195e3d7cc443c9fd0e",
+    "pipelines/benchmark/_vendor/crops100/yolo.py": "ccf6d7c0e9a9643089d19ef0dd69c32c4ce39bb62c24d9d191d2b935e9c4ad64",
+    "pipelines/benchmark/_vendor/crops100/__init__.py": "3c4f452e0fec73c38e8d35bfa7f05c6e0964afdc90af04a990a62bfa931e7526",
+    "pipelines/benchmark/_vendor/dcbr_compare/baseline.py": "ad3d6987b59c944a1d4413ca8cd10c4d3f9d56f41c200463283f1507173d3fb7",
+    "pipelines/benchmark/_vendor/dcbr_compare/evaluation.py": "9613f5daa61948a12fc02d274cc610649dde299e85b850bcaf5e74c0b3f75cd9",
+    "pipelines/benchmark/_vendor/dcbr_compare/io.py": "a784c5d08e6c832738e68db6c8bf330f3caeadb16426f3ebdeda4dedcae10580",
+    "pipelines/benchmark/_vendor/dcbr_compare/metrics.py": "b68cd3ffb51ab7df51a608dae3d75fdb3cbe7ab5af926fc47e91dada450fb8d9",
+    "pipelines/benchmark/_vendor/dcbr_compare/training.py": "e45ff8e8386e9a67301f31cdc1d5ad52c1bef03f1592c66853007676d02e34fc",
+    "pipelines/benchmark/_vendor/dcbr_compare/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pipelines/benchmark/_vendor/dcbr_monai_full/common.py": "0cb05ab544a875984c32d07986e9553e87ba8159fbc9b5ac2abd9789c0775885",
+    "pipelines/benchmark/_vendor/dcbr_monai_full/training.py": "7671b0f0d1a9ac00d7230934f7114415434017167091f596b10fe1f5c5b81d09",
+    "pipelines/benchmark/_vendor/dcbr_monai_full/__init__.py": "f7776e9ee16d326ed1cd990579ab68de6df245a464dce50f8b7c4c7d6ad0e0ba",
+    "pipelines/benchmark/_vendor/dcbr_nnunet/backend.py": "7879144f0ef828d51a6282c46ca953c88d6f30528dd88dd052edf13d6af7779e",
+    "pipelines/benchmark/_vendor/dcbr_nnunet/native_trainer.py": "8831365afddc8c067ff9d762cd4fc182e8c255576ecee64791b6546c574658a6",
+    "pipelines/benchmark/_vendor/dcbr_nnunet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pipelines/benchmark/_vendor/dcbr_reference/inference.py": "2f6067971c310d521d5142304da3ecfe243c7baaecbf30d07345c55d162e990f",
+    "pipelines/benchmark/_vendor/dcbr_reference/metrics.py": "91fb03c10916ce1aff251f73d7107911d6c305e1823e655997b6391405d234cd",
+    "pipelines/benchmark/_vendor/dcbr_reference/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pipelines/benchmark/_vendor/nnunet_ext/nnUNetTrainerCariesEarlyStop.py": "368ffba36f1346f5191b7a56562aee5969d66b9b692fdef0d0fd115a9df8da0d",
+    "pipelines/benchmark/_vendor/proxcaries/config.py": "4a5daa44899993c324bce4086bd802a3b45c8f5cf20c0467cccc16a0b3da8410",
+    "pipelines/benchmark/_vendor/proxcaries/evaluation.py": "3c4d7e80fbd3fb2baf3fdf9c5b6992dce7d52e691b376dfc148e8d03d2d31147",
+    "pipelines/benchmark/_vendor/proxcaries/metrics.py": "8ef6f1010cdedf1f20e80c468c9fdde739457b5ec8867a733dbb8cabb0f908f9",
+    "pipelines/benchmark/_vendor/proxcaries/status.py": "c66a96fd50ae6eb1bd3a54c5b5e634b380bf907f39cdc9e5e5e647dc6111e661",
+    "pipelines/benchmark/_vendor/proxcaries/utils.py": "ec6bdd1f02828896b2bbf685f5c8f807d460e52ae958e18b9e46e9deebfa929c",
+    "pipelines/benchmark/_vendor/proxcaries/__init__.py": "a91c7ad86d066e2ea149bb19cbf648a47a3cb68fa5642bbc73b93177d7d1aa9e",
+    "pipelines/benchmark/_vendor/proxcaries/data/prepare.py": "0b6c8272be404edf3e050bea54f5ecaae49ebbfce04db6a7291fac064b4439ca",
+    "pipelines/benchmark/_vendor/proxcaries/data/splits.py": "e7e52664d19db4808b848acc243b41958083e3f3e32c9ea121296d4bfcabe0a9",
+    "pipelines/benchmark/_vendor/proxcaries/data/transforms.py": "85ebeeee36d9b64c4dd7223059d3503e96836e8c556b9c5170dbb43d27e3e18a",
+    "pipelines/benchmark/_vendor/proxcaries/data/validate.py": "2d3a33d8314ba2167a8549c8ff613a873e3681829d268ae66ca3a36e6453eb1b",
+    "pipelines/benchmark/_vendor/proxcaries/training/common.py": "cae5ef6d761697c095b6e96019102651ab5c2eb84bcc82071492e03b1459f950",
+    "pipelines/benchmark/_vendor/proxcaries/training/monai_runner.py": "869531008fdc8dbe47fc894cc1f60f774cf608f94bba1b1bdbb486a99510779f",
+    "pipelines/benchmark/_vendor/proxcaries/training/nnunet_runner.py": "732014946f50774a5b92434ac1e45109b70f4e32616f9690d48a5908390f61d0",
+    "pipelines/benchmark/_vendor/proxcaries/training/yolo_runner.py": "cdf0bf87a2165516584f331517390a1156c4c6b99bae35f0a4cd6ec2673f35c0"
+  }
+}

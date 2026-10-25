@@ -1,0 +1,22 @@
+name: Reproduction checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  cpu-results:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Verify released file checksums
+        run: python run.py verify
+      - name: Reproduce reference results and test data handling
+        run: python -m unittest discover -s tests -v

@@ -1,0 +1,74 @@
+{
+  "architecture_selection": {
+    "sources": [
+      "acta_direct"
+    ],
+    "architectures": [
+      "monai_segresnet",
+      "yolo26_sem",
+      "nnunetv2"
+    ],
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "data": {
+    "extracted_dir": "data/extracted",
+    "processed_dir": "data/processed",
+    "runs_dir": "runs",
+    "work_dir": "work",
+    "zip_path": "data/raw/Datasets.zip"
+  },
+  "monai": {
+    "blocks_down": [
+      1,
+      2,
+      2,
+      4
+    ],
+    "blocks_up": [
+      1,
+      1,
+      1
+    ],
+    "init_filters": 32
+  },
+  "nnunet": {
+    "configuration": "2d",
+    "dataset_ids": {
+      "acta_direct": 601,
+      "dcbr": 602,
+      "pooled": 603
+    }
+  },
+  "project": {
+    "image_size": 384,
+    "n_folds": 5,
+    "seed_for_folds": 2026,
+    "threshold": 0.5,
+    "training_seeds": [
+      17,
+      42,
+      2026
+    ]
+  },
+  "training": {
+    "batch_size": 16,
+    "learning_rate": 0.0003,
+    "max_epochs": 250,
+    "min_delta": 0.001,
+    "monitor": "architecture_native_validation_metric",
+    "num_workers": 6,
+    "patience": 30,
+    "weight_decay": 0.0001
+  },
+  "yolo": {
+    "device": 0,
+    "model": "yolo26n-sem.yaml",
+    "pretrained": false
+  }
+}

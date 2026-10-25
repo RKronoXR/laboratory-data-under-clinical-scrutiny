@@ -1,0 +1,152 @@
+{
+  "protocol_version": "reverse_2.0.0",
+  "project_root": ".",
+  "datasets_zip": "data/Datasets.zip",
+  "source_v3": "pipelines/main/yolo",
+  "source_profile": "NO_HPO",
+  "teacher_model": "yolo26n-sem.yaml",
+  "ultralytics_version": "8.4.164",
+  "nnunet_version": "2.8.1",
+  "student_plans": "configs/main/clinical_plans.json",
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "folds": 5,
+  "fold_seed": 2026,
+  "partition_policy": "original_train_validation_folds",
+  "teacher_reuse": {
+    "legacy_root": "runs/main/prior_teachers",
+    "legacy_splits": "configs/main/clinical_splits.json"
+  },
+  "full_image_size": 768,
+  "crop_image_size": 384,
+  "teacher_image_size": 384,
+  "expected_acta_samples": 2270,
+  "expected_acta_teeth": 227,
+  "expected_dcbr_bitewings": 100,
+  "expected_dcbr_surfaces": 1322,
+  "expected_reference_bitewings": 25,
+  "expected_reference_surfaces": 369,
+  "require_surface_review": true,
+  "training": {
+    "acta_batch_size": 8,
+    "acta_epochs": 100,
+    "acta_final_selection": "clinical_validation",
+    "acta_finetune_lr": 0.001,
+    "acta_pretrain_lr": 0.01,
+    "amp": true,
+    "batch_size": 2,
+    "clinical_epochs": 250,
+    "clinical_lr": 0.01,
+    "cpu_threads": 8,
+    "deep_supervision": true,
+    "device": "0",
+    "distillation_weight": 0.3,
+    "gradient_clip": 12.0,
+    "inference_batch": 1,
+    "intensity_fraction": 0.1,
+    "minimum_epochs": 30,
+    "momentum": 0.99,
+    "nesterov": true,
+    "optimizer": "SGD",
+    "patience": 30,
+    "rotate_degrees": 5.0,
+    "save_last_checkpoint": true,
+    "teacher_batch_size": 8,
+    "temperature": 1.0,
+    "validate_every": 5,
+    "weight_decay": 3e-05,
+    "workers": 0
+  },
+  "threshold": {
+    "fixed": 0.5,
+    "youden_endpoint": "overlap"
+  },
+  "reporting": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 92026,
+    "confidence_level": 0.95,
+    "min_free_gb": 25
+  },
+  "statistics": {
+    "alpha": 0.05,
+    "glmm_timeout_seconds": 1200,
+    "required_before_training": false,
+    "run_glmm": false
+  },
+  "reference25": {
+    "evaluate_after_all_development": true,
+    "status": "previously_inspected_secondary_test"
+  },
+  "runtime": {
+    "heartbeat_seconds": 5,
+    "startup_handshake_seconds": 45,
+    "supervisor_no_progress_timeout_seconds": 1800,
+    "worker_no_progress_timeout_seconds": 1800
+  },
+  "output_base": "runs/additional/earlier",
+  "hpo": {
+    "clinical": {
+      "lr": [
+        0.0003,
+        0.001,
+        0.003,
+        0.01,
+        0.02,
+        0.03
+      ],
+      "weight_decay": [
+        1e-05,
+        3e-05,
+        0.0001,
+        0.0003
+      ]
+    },
+    "distill": {
+      "temperature": [
+        1.0
+      ],
+      "weight": [
+        0.1,
+        0.3,
+        1.0,
+        3.0
+      ]
+    },
+    "enabled": [],
+    "finetune": {
+      "lr": [
+        0.0003,
+        0.001,
+        0.003
+      ],
+      "weight_decay": [
+        1e-05,
+        0.0001
+      ]
+    },
+    "inner_validation_fraction": 0.2,
+    "pretrain": {
+      "epochs": [
+        50,
+        100
+      ],
+      "lr": [
+        0.003,
+        0.01,
+        0.03
+      ],
+      "weight_decay": [
+        1e-05,
+        3e-05,
+        0.0001,
+        0.0003
+      ]
+    },
+    "proxy_acta_finetune_epochs": 50,
+    "proxy_clinical_epochs": 50,
+    "split_seed": 12026
+  }
+}

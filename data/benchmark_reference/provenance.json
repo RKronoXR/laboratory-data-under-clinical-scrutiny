@@ -1,0 +1,11 @@
+{
+  "benchmark_archive_sha256": "d9f23672763834008d26dc56cc5a922dc89611d958c7018f72fc8fa9ee381747",
+  "additional_crop_archive_sha256": "4ea04f7395610f37a0a80f40f6c9614c36259d759feed846421c8544cd2b3dd6",
+  "files": {
+    "additional_crop_regions.csv.gz": "930f89267ca854a6a84e153e1a732787a2ee45f80d1aa03345ec23635f11a9b3",
+    "additional_crop_seed_metrics.csv": "1fc4556128e89c93804baab0aa73ad6ee7d69019da17f746e412454f607ec86c",
+    "per_seed_native.csv": "ea432e613a6295a116466c84557742f829e7abb2542fd0ec8604fff1e50a2ba2",
+    "per_seed_paired.csv": "e63930c7222af1608cb4e2989a48ce08d6df7cddc82e4d4e3a4dd517a08d5c96"
+  },
+  "scope": "Development benchmark summaries and retained additional crop reports only. No image data or clinical assessment of benchmark models."
+}

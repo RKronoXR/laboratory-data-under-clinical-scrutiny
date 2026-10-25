@@ -1,0 +1,9 @@
+architecture,strategy,outcome,mean,sd
+nnU-Net,clinical_only,accuracy,0.716531165311653,0.00338482276335955
+nnU-Net,laboratory_pretraining,accuracy,0.691960252935863,0.00686302435888799
+nnU-Net,knowledge_distillation,accuracy,0.715627822944896,0.0064207247132491
+nnU-Net,pretraining_and_distillation,accuracy,0.702619692863595,0.00759452558517931
+YOLO,clinical_only,accuracy,0.502800361336947,0.0430385523395926
+YOLO,laboratory_pretraining,accuracy,0.508762420957543,0.00460970219410044
+YOLO,knowledge_distillation,accuracy,0.484191508581752,0.0199979679884686
+YOLO,pretraining_and_distillation,accuracy,0.497018970189702,0.00781691333433929

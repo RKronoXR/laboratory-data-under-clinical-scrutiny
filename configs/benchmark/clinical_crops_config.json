@@ -1,0 +1,369 @@
+{
+  "historical_config": {
+    "monai": {
+      "blocks_down": [
+        1,
+        2,
+        2,
+        4
+      ],
+      "blocks_up": [
+        1,
+        1,
+        1
+      ],
+      "init_filters": 32
+    },
+    "project": {
+      "image_size": 384,
+      "n_folds": 5,
+      "seed_for_folds": 2026,
+      "threshold": 0.5,
+      "training_seeds": [
+        17,
+        42,
+        2026
+      ]
+    },
+    "training": {
+      "batch_size": 16,
+      "learning_rate": 0.0003,
+      "max_epochs": 250,
+      "min_delta": 0.001,
+      "monitor": "architecture_native_validation_metric",
+      "num_workers": 6,
+      "patience": 30,
+      "weight_decay": 0.0001
+    }
+  },
+  "nnunet": {
+    "device": "0",
+    "nnunet_initial_lr": 0.01,
+    "nnunet_max_epochs": 250,
+    "nnunet_min_delta": 0.001,
+    "nnunet_oversample_foreground": 0.33,
+    "nnunet_patience": 30,
+    "nnunet_train_iterations": 250,
+    "nnunet_validation_iterations": 50,
+    "nnunet_version": "2.8.1",
+    "nnunet_weight_decay": 3e-05
+  },
+  "nnunet_plans": {
+    "configurations": {
+      "2d": {
+        "architecture": {
+          "_kw_requires_import": [
+            "conv_op",
+            "norm_op",
+            "dropout_op",
+            "nonlin"
+          ],
+          "arch_kwargs": {
+            "conv_bias": true,
+            "conv_op": "torch.nn.modules.conv.Conv2d",
+            "dropout_op": null,
+            "dropout_op_kwargs": null,
+            "features_per_stage": [
+              32,
+              64,
+              128,
+              256,
+              512,
+              512,
+              512
+            ],
+            "kernel_sizes": [
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "n_conv_per_stage": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "n_conv_per_stage_decoder": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "n_stages": 7,
+            "nonlin": "torch.nn.LeakyReLU",
+            "nonlin_kwargs": {
+              "inplace": true
+            },
+            "norm_op": "torch.nn.modules.instancenorm.InstanceNorm2d",
+            "norm_op_kwargs": {
+              "affine": true,
+              "eps": 1e-05
+            },
+            "strides": [
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          "network_class_name": "dynamic_network_architectures.architectures.unet.PlainConvUNet"
+        },
+        "batch_dice": true,
+        "batch_size": 44,
+        "data_identifier": "nnUNetPlans_2d",
+        "median_image_size_in_voxels": [
+          384.0,
+          191.0
+        ],
+        "normalization_schemes": [
+          "ZScoreNormalization"
+        ],
+        "patch_size": [
+          384,
+          192
+        ],
+        "preprocessor_name": "DefaultPreprocessor",
+        "resampling_fn_data": "resample_data_or_seg_to_shape",
+        "resampling_fn_data_kwargs": {
+          "force_separate_z": null,
+          "is_seg": false,
+          "order": 3,
+          "order_z": 0
+        },
+        "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+        "resampling_fn_probabilities_kwargs": {
+          "force_separate_z": null,
+          "is_seg": false,
+          "order": 1,
+          "order_z": 0
+        },
+        "resampling_fn_seg": "resample_data_or_seg_to_shape",
+        "resampling_fn_seg_kwargs": {
+          "force_separate_z": null,
+          "is_seg": true,
+          "order": 1,
+          "order_z": 0
+        },
+        "spacing": [
+          1.0,
+          1.0
+        ],
+        "use_mask_for_norm": [
+          true
+        ]
+      }
+    },
+    "dataset_name": "Dataset702_DCBRCrops100",
+    "experiment_planner_used": "ExperimentPlanner",
+    "foreground_intensity_properties_per_channel": {
+      "0": {
+        "max": 248.0,
+        "mean": 105.44494620904004,
+        "median": 107.0,
+        "min": 0.0,
+        "percentile_00_5": 12.0,
+        "percentile_99_5": 193.0,
+        "std": 35.59425004383471
+      }
+    },
+    "image_reader_writer": "NaturalImage2DIO",
+    "label_manager": "LabelManager",
+    "original_median_shape_after_transp": [
+      1,
+      384,
+      191
+    ],
+    "original_median_spacing_after_transp": [
+      999.0,
+      1.0,
+      1.0
+    ],
+    "plans_name": "nnUNetPlans",
+    "transpose_backward": [
+      0,
+      1,
+      2
+    ],
+    "transpose_forward": [
+      0,
+      1,
+      2
+    ]
+  },
+  "versions": {
+    "Pillow": "10.2.0",
+    "PyYAML": "6.0.1",
+    "matplotlib": "3.11.2",
+    "monai": "1.6.0",
+    "nnunetv2": "2.8.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "seaborn": "0.13.2",
+    "torch": "2.14.0",
+    "ultralytics": "8.4.164"
+  },
+  "yolo": {
+    "device": 0,
+    "model": "yolo26n-sem.yaml",
+    "training_args": {
+      "agnostic_nms": false,
+      "amp": true,
+      "angle": 1.0,
+      "augment": false,
+      "auto_augment": "randaugment",
+      "batch": 16,
+      "bgr": 0.0,
+      "box": 7.5,
+      "cache": false,
+      "cfg": null,
+      "channels_last": null,
+      "classes": null,
+      "close_mosaic": 10,
+      "cls": 0.5,
+      "cls_pw": 0.0,
+      "cls_remap": true,
+      "compile": false,
+      "conf": null,
+      "copy_paste": 0.0,
+      "copy_paste_mode": "flip",
+      "cos_lr": false,
+      "cutmix": 0.0,
+      "degrees": 0.0,
+      "deterministic": true,
+      "dfl": 1.5,
+      "dgrad": 0.5,
+      "dis": 6.0,
+      "distill_model": null,
+      "dlam": 1.0,
+      "dlog": 1.0,
+      "dnn": false,
+      "dropout": 0.0,
+      "dynamic": false,
+      "embed": null,
+      "epochs": 250,
+      "erasing": 0.4,
+      "exist_ok": true,
+      "fliplr": 0.5,
+      "flipud": 0.0,
+      "format": "torchscript",
+      "fraction": 1.0,
+      "freeze": null,
+      "hsv_h": 0.015,
+      "hsv_s": 0.7,
+      "hsv_v": 0.4,
+      "imgsz": 384,
+      "iou": 0.7,
+      "kobj": 1.0,
+      "line_width": null,
+      "lr0": 0.01,
+      "lrf": 0.01,
+      "mask_ratio": 4,
+      "max_det": 300,
+      "mixup": 0.0,
+      "momentum": 0.937,
+      "mosaic": 1.0,
+      "multi_scale": 0.0,
+      "nbs": 64,
+      "nms": null,
+      "opset": null,
+      "optimize": false,
+      "optimizer": "auto",
+      "overlap_mask": true,
+      "patience": 30,
+      "perspective": 0.0,
+      "pose": 12.0,
+      "profile": false,
+      "quantize": null,
+      "rect": false,
+      "retina_masks": false,
+      "rle": 1.0,
+      "save": true,
+      "save_conf": false,
+      "save_crop": false,
+      "save_frames": false,
+      "save_json": false,
+      "save_txt": false,
+      "scale": 0.5,
+      "shear": 0.0,
+      "show": false,
+      "show_boxes": true,
+      "show_conf": true,
+      "show_labels": true,
+      "simplify": true,
+      "single_cls": false,
+      "source": null,
+      "split": "val",
+      "stream_buffer": false,
+      "task": "semantic",
+      "time": null,
+      "tracker": "tracktrack.yaml",
+      "translate": 0.1,
+      "val": true,
+      "vid_stride": 1,
+      "visualize": false,
+      "warmup_bias_lr": 0.1,
+      "warmup_epochs": 3.0,
+      "warmup_momentum": 0.8,
+      "weight_decay": 0.0005,
+      "workers": 8,
+      "workspace": null
+    },
+    "ultralytics_version": "8.4.164"
+  }
+}

@@ -1,0 +1,11 @@
+package,version
+Matrix,1.7-3
+Rcpp,1.1.2
+RcppEigen,0.3.4.0.2
+rbibutils,2.4.1
+Rdpack,2.6.6
+reformulas,0.4.4
+minqa,1.2.8
+nloptr,2.2.1
+lme4,2.0-6
+jsonlite,2.0.0

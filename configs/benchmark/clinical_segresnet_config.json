@@ -1,0 +1,47 @@
+{
+  "comparison_compatible": false,
+  "monai": {
+    "blocks_down": [
+      1,
+      2,
+      2,
+      4
+    ],
+    "blocks_up": [
+      1,
+      1,
+      1
+    ],
+    "init_filters": 32
+  },
+  "policy": "historical_patience_no_minimum_override",
+  "project": {
+    "image_size": 384,
+    "n_folds": 5,
+    "seed_for_folds": 2026,
+    "threshold": 0.5,
+    "training_seeds": [
+      17,
+      42,
+      2026
+    ]
+  },
+  "selection_metric": "positive_Dice_on_paired_validation_surfaces",
+  "training": {
+    "batch_size": 16,
+    "learning_rate": 0.0003,
+    "max_epochs": 250,
+    "min_delta": 0.001,
+    "monitor": "architecture_native_validation_metric",
+    "num_workers": 6,
+    "patience": 30,
+    "weight_decay": 0.0001
+  },
+  "versions": {
+    "Pillow": "10.2.0",
+    "monai": "1.6.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "torch": "2.14.0"
+  }
+}
